@@ -1,0 +1,27 @@
+---
+title: "Awards/Honors"
+output: html_document
+---
+
+*	Nomination to Sigma Xi, The Scientific Research Honor Society: December 2019
+*	National Institutes of Health (NIH) Individual Predoctoral National Research Service Award (NRSA) MD/PhD Fellowship (F30): August 2018 – Present
+*	3rd Place in the American Medical Informatics Association Student Design Challenge: 2017
+*	Hertz Foundation Fellowship Finalist: 2017
+*	Johns Hopkins University Global mHealth Initiative Scholar: 2016
+*	Johns Hopkins School of Medicine Innovative Student Award Honorable Mention: 2015
+*	1st Place in Leaders of Tomorrow Summit’s “An Exercise in Innovation” Case Competition: 2015
+*	50 Leaders of Tomorrow (Next Generation of Bioleaders) Award Recipient at the Leaders of Tomorrow Summit: 2015
+*	UCLA Henry Samueli School of Engineering Outstanding Bachelor of Science Award: 2014
+*	UCLA Bioengineering Departmental Outstanding Bachelor of Science Award: 2014
+*	UCLA Howard Hughes Undergraduate Research Program Most Distinguished Senior Award: 2014
+*	UCLA Science Poster Day Dean’s Prize: 2014
+*	Edie Wasserman Memorial Senior Prize: 2014
+*	Barry M. Goldwater Scholarship and Excellence in Education Foundation - Goldwater Scholar: 2013
+*	UCLA School of Engineering and Applied Science Scholarships: Lockheed Martin & Stanton and Stockwell Architects Scholarship: 2014
+*	UCLA School of Engineering and Applied Science Scholarships: Jon C. Jones Memorial Scholarship: 2013
+*	UCLA School of Engineering and Applied Science Scholarships: John Slaughter Scholarship: 2011, 2012
+*	Howard Hughes Undergraduate Research Program: 2012 – 2014
+*	UCLA Biomedical Research Summer Scholarship: Summer 2012
+*	UCLA Junior Undergraduate Research Scholar: 2011– 2013
+*	UCLA Dean’s Honor List: Fall 2010, Winter 2011, Spring 2011, Fall 2011, Winter 2012, Spring 2012, Fall 2012, Winter 2013, Spring 2013, Fall 2013, Winter 2014, Spring 2014
+*	Chancellor's Distinguished Student Awardee: 2011, 2012, 2013, 2014

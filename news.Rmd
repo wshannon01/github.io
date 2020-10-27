@@ -1,0 +1,22 @@
+---
+title: "In the News"
+output: html_document
+---
+
+[*Malone Center Students Named as ATS Student Scholars*](https://malonecenter.jhu.edu/malone-center-students-named-ats-student-scholars/)
+
+[*Lifestyle Medicine Education Collaborative feature article on the Johns Hopkins University School of Medicine Teaching Kitchen*](http://lifestylemedicineeducation.org/johns-hopkins-university-school-of-medicine-teaching-kitchen/)
+
+[*Feature in Technically Baltimore: 3 health-focused startups in JHU’s Social Innovation Lab*](https://technical.ly/baltimore/2016/04/20/3-health-focused-startups-jhus-social-innovation-lab/)
+
+[*B'more Healthy Teaching Kitchen featured in the Social Innovation Lab's announcement: JHU early-stage incubator to support 10 business, technology ventures*](https://hub.jhu.edu/2015/10/30/social-innovation-lab-2015-2016-cohort/)
+
+[*Feature in the Medical Student Press*](https://mbasic.facebook.com/story.php?story_fbid=1539715386270686&substory_index=0&id=1408883999353826&refid=17&_ft_=top_level_post_id.1539715322937359%3Atl_objid.1539715322937359%3Athrowback_story_fbid.1539715386270686%3Apage_id.1408883999353826%3Apage_insights.%7B%221408883999353826%22%3A%7B%22role%22%3A1%2C%22page_id%22%3A1408883999353826%2C%22post_context%22%3A%7B%22story_fbid%22%3A1539715386270686%2C%22publish_time%22%3A1418770643%2C%22story_name%22%3A%22EntPhotoNodeBasedEdgeStory%22%2C%22object_fbtype%22%3A22%7D%2C%22actor_id%22%3A1408883999353826%2C%22psn%22%3A%22EntPhotoNodeBasedEdgeStory%22%2C%22sl%22%3A4%2C%22targets%22%3A%5B%7B%22page_id%22%3A1408883999353826%2C%22actor_id%22%3A1408883999353826%2C%22role%22%3A1%2C%22post_id%22%3A1539715386270686%2C%22share_id%22%3A0%7D%5D%7D%2C%2235281659193%22%3A%7B%22page_id%22%3A35281659193%2C%22role%22%3A16%2C%22actor_id%22%3A1408883999353826%2C%22psn%22%3A%22EntPhotoNodeBasedEdgeStory%22%2C%22sl%22%3A4%7D%7D%3Athid.1408883999353826%3A306061129499414%3A69%3A1388563200%3A1420099199%3A-4081180898271185253&__tn__=%2As-R)
+
+[*2014 Johns Hopkins Medical Scientist Program Entering Class*](https://mdphd.johnshopkins.edu/class2014-2/)
+
+[*UCLA 2014 Commencement Awards: Outstanding Bachelor of Science*](https://samueli.ucla.edu/2014-commencement-awards/)
+
+[*Bioengineering Junior Named 2013 Barry Goldwater Scholar*](https://samueli.ucla.edu/bioengineering-junior-named-2013-barry-goldwater-scholar/)
+
+[*Daily Bruin: Student receives Barry Goldwater Scholarship for research, dedication*](https://dailybruin.com/2013/05/14/student-receives-barry-goldwater-scholarship-for-research-dedication)

@@ -1,0 +1,39 @@
+---
+title: "Teaching"
+output: html_document
+---
+
+> __UCLA Henry Samueli School of Engineering and Applied Science:__
+
+Guest Lecturer for Bioengineering Department's Seminar Series: November 16th, 2020
+
+  * Machine Learning for Clinical Risk Prediction
+
+
+> __Johns Hopkins Whiting School of Engineering:__
+
+Instructor: September - November 2018
+
+  * During my PhD training, I had the privilege of participating in the Hopkins Engineering Applications & Research Tutorials (HEART) program, through which advanced graduate students and postdoctoral fellows design courses to provide undergraduates with the opportunity to learn about cutting-edge engineering research and its societal impact. Specifically, I designed and instructed __HEART Foundations of Statistical Machine Learning__ which introduced both the theoretical foundations of modern statistical machine learning models and the implementation of these algorithms in the R programming language; additional details are provided in the *Nature Machine Intelligence* publications below in which I shared my reflections and perspective on increasing diversity and inclusion in the machine intelligence community:
+    + [*Fostering Diversity and Inclusion in the Machine Intelligence Community.*](https://www.nature.com/articles/s42256-019-0021-8)
+    + [*Artificial intelligence (AI) reflections in 2019.*](https://www.nature.com/articles/s42256-019-0141-1)
+
+> __Johns Hopkins School of Medicine:__
+
+Teaching Assistant for Medical School Intensive: July 2018
+
+> __Johns Hopkins Bloomberg School of Public Health:__
+
+Guest Lecturer for Methods in Biostatistics IV: May 18th, 2017
+
+  * Random Forest Algorithm and Practical Applications in R
+
+> __UCLA Henry Samueli School of Engineering and Applied Science:__
+
+Tutor: January 2013 - March 2014
+
+  * BE 120: Biomedical Transducers: January 2014 – March 2014
+
+  * BE 110: Biotransport and Bioreaction Processes: March 2013 – June 2013
+
+  * BE 100: Bioengineering Fundamentals: January 2013 – March 2013

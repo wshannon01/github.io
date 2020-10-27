@@ -1,0 +1,33 @@
+name: "Shannon Wongvibulsin"
+output_dir: "."
+navbar:
+  title: "Shannon Wongvibulsin"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Research"
+      href: pubs.html
+    - text: "Awards/Honors"
+      href: awards.html
+    - text: "Teaching"
+      href: leadership.html
+    - text: "Wellness"
+      href: wellness.html
+    - text: "Quest2Learn"
+      href: quest.html
+    - text: "News"
+      href: news.html
+      
+  bottom:
+    - icon: fa-envelope fa-lg
+    - text: swongvi1 at jhmi dot edu
+    #- icon: fa-github fa-lg
+    #- icon: fa-twitter fa-lg
+    #- icon: fa-linkedin fa-lg
+output:
+  html_document:
+    theme: paper
+    css: 'styles.css'
+    
+    ## goggle scholar; project descriptions
+    ## teaching, activities, leadership

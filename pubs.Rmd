@@ -1,0 +1,70 @@
+---
+title: "Research"
+---
+## 
+## Research Areas
+
+![](overview.jpg)
+
+##
+## Current Projects
+
+* __Machine Learning for Individualized COVID-19 Clinical Risk Prediction:__ under the advisement of Dr. Scott Zeger, PhD, Dr. Matthew Robinson, MD, Dr. Mei-Cheng Wang, PhD, and Dr. Brian Garibaldi, MD
+
+* __Big Data, Machine Learning, and Digital Health Technology for Precision Dermatology:__ under the advisement of Dr. Shawn Kwatra, MD, Dr. Yevgeniy (“Eugene”) Semenov, MD, MA, Dr. Scott Zeger, PhD
+
+##
+## Manuscripts in Submission
+
+* __Wongvibulsin S.__, Garibaldi B., Antar A., Wen J., Wang M., Gupta A., Bollinger R., Xu Y., Wang K., Betz J., Muschelli J., Roche K., Zeger S., Robinson M. *Development of Severe COVID-19 Adaptive Risk Predictor (SCARP), a calculator to predict severe disease or death in hospitalized patients with COVID-19.* 
+* __Wongvibulsin S.__, Sutaria N., Kannan S., Alphonse M., Belzberg M., Williams K., Brown I., Choi J., Roh Y., Pritchard T., Khanna R., Eseonu A., Jedrych J., Dillen C., Kwatra M., Chien A., Archer N., Garza L., Dong X., Kang S., Kwatra S. *Transcriptomic analysis of atopic dermatitis in African Americans is characterized by Th2/Th17-centered cutaneous immune activation.* 
+* __Wongvibulsin S.__, Sutaria N., Williams K., Huang A., Choi J., Roh Y., Hong M., Kelley D., Pahalyants V., Murphy W., Alphonse M., Bakhshi P., Walia A., Semenov Y., Kwatra, S. *A Nationwide Study of Prurigo Nodularis: Disease Burden and Health Care Utilization of Prurigo Nodularis in the U.S. Population.*
+
+* __Wongvibulsin S.__, Pahalyants V., Kalinich M., Murphy W., Yu K., Wang F., Chen S., Reynolds K., Kwatra S., Semenov Y. *Epidemiology and risk factors for the development of cutaneous toxicities in patients treated with immune checkpoint inhibitors: A United States population-level analysis.*
+
+* __Wongvibulsin S.__, Habeos E., Huynh P., Xun H., Shan R., Rodriguez K., Wang J., Gandapur Y., Osuji N., Shah L., Spaulding E., Hung G., Knowles K., Yang W., Marvel F., Levin E., Maron D., Gordon N., Martin S. *Digital Interventions for Cardiac Rehabilitation: A Systematic Literature Review.* 
+
+##
+## Publications
+
+* __Wongvibulsin S.__, Semenov Y., Khanna R., Zeger S., Kwatra S. [*Machine Learning (ML) Predictive Algorithm for Childhood-Onset Chronic Pruritic Dermatoses (CPD) Identifies Acrylamide and Glycidamide as Itch Modulators.*](https://www.jidonline.org/article/S0022-202X(20)31110-6/fulltext) JID. 2020.
+
+* Wu K., __Wongvibulsin S.__, Tao S., Ashikaga H., Stillabower M., Dickfeld T., Weiss G., Tomaselli G., Zeger S. [*Baseline and Dynamic Risk Predictors of Appropriate Implantable Cardioverter Defibrillator Therapy: A Machine Learning Approach to Sudden Cardiac Death (SCD) Risk Prediction.*](https://www.ahajournals.org/doi/10.1161/JAHA.120.017002) JAHA. 2020.
+
+* __Wongvibulsin S.__, Wu K., Zeger S. [*Improving Clinical Translation of Machine Learning Approaches Through Clinician-Tailored Visual Displays of “Black Box” Algorithms.*](https://medinform.jmir.org/2020/6/e15791/) JMIR Medical Informatics. 2020.
+
+* Radin J., Peters S., Ariniello L., __Wongvibulsin S.__, Galarnyk M., Wallen J., Steinhubl S. [*Pregnancy Health in POWERMOM Participants Living in Rural versus Urban Zip Codes.*](https://doi.org/10.1017/cts.2020.33) Journal of Clinical and Translational Science. 2020.
+
+* __Wongvibulsin S.__, et al. (all authors contributed equally) [*Artificial intelligence (AI) reflections in 2019.*](https://www.nature.com/articles/s42256-019-0141-1) Nature Machine Intelligence. 2020. 
+
+* __Wongvibulsin S.__, Wu K., Zeger S. [*Random Forests for Survival, Longitudinal, and Multivariate (RF-SLAM) Data Analysis with Applications to Clinical Risk Prediction.*](https://bmcmedresmethodol.biomedcentral.com/articles/10.1186/s12874-019-0863-0) BMC Medical Research Methodology. 2019.
+
+*	__Wongvibulsin S.__, Zeger S. [*Enabling individualized health in learning healthcare systems.*](https://ebm.bmj.com/content/25/4/125) BMJ Evidence-Based Medicine. 2019.
+
+* Yang W., Shah L., Spaulding E., Wang J., Xun H., Weng D., Shan R., __Wongvibulsin S.__, Marvel F., Martin S. [*The Role of a Clinician Amidst the Rise of Mobile Health Technology.*](https://academic.oup.com/jamia/article/26/11/1385/5542898) JAMIA. 2019.
+
+* Shah L., Yang W., Demo R., Lee M., Weng D., Shan R., __Wongvibulsin S.__, Spaulding E., Marvel F., Martin S. [*Technical guidance for clinicians interested in partnering with engineers in mHealth development and evaluation.*](https://mhealth.jmir.org/2019/5/e14124/) JMIR mHealth uHealth. 2019.
+
+*	__Wongvibulsin S.__, Martin S., Saria S., Zeger S., Murphy S. [*An Individualized, Data-Driven Digital Approach for Precision Behavior Change.*](https://journals.sagepub.com/doi/full/10.1177/1559827619843489) The American Journal of Lifestyle Medicine. 2019. 
+
+* __Wongvibulsin S.__ [*Fostering Diversity and Inclusion in the Machine Intelligence Community.*](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6687322/) Nature Machine Intelligence. 2019.
+
+*	__Wongvibulsin S.__, Martin S., Steinhubl S., Muse E. [*Connected Health Technology for Cardiovascular Disease Prevention and Management.*](https://link.springer.com/article/10.1007/s11936-019-0729-0) Current Treatment Options. 2019. 
+
+*	__Wongvibulsin S.__, Ho B., Kwatra S. [*Embracing machine learning and digital health technology for precision dermatology.*](https://www.tandfonline.com/doi/full/10.1080/09546634.2019.1623373) Journal of Dermatological Treatment. 2019. 
+
+*	__Wongvibulsin S.__, Khanna R., Kwatra S. [*Anatomic localization and quantitative analysis of the burden of itch in the United States.*](https://www.sciencedirect.com/science/article/pii/S0190962219309934?via%3Dihub) JAAD. 2019.
+
+*	Yang W., Spaulding E., Lumelsky D., Hung G., Huynh P., Knowles K., Marvel F., Vilarino V., Wang, J., Shah L., Xun, H., Shan, R., __Wongvibulsin S.__, Martin S.  [*Strategies for the Successful Implementation of a Novel iPhone Loaner System (iShare) in mHealth Interventions: Prospective Study.*](https://mhealth.jmir.org/2019/12/e16391/) JMIR mHealth uHealth. 2019.
+
+*	Delva S., Waligora K., Cajita M., Koirala B., Shan R., __Wongvibulsin S.__, Vilarino V., Gilmore D., Han H. [*Efficacy of Mobile Health for Self-Management of Cardiometabolic Risk Factors: a Theory-guided Systematic Review.*](https://journals.lww.com/jcnjournal/Abstract/9000/Efficacy_of_Mobile_Health_for_Self_management_of.99321.aspx) JCN. 2019.
+
+*	Shan R., __Wongvibulsin S.__, Martin S. [*How Partnerships Between Humans and Technology Can Enhance Health Care.*](https://www.consultant360.com/exclusive/cardiology/how-partnerships-between-humans-and-technology-can-enhance-health-care) Cardiology Consultant. 2018.  
+
+*	__Wongvibulsin S.__, Daza E.J. (both authors contributed equally) [*Generating Actionable Insights: Machine Learning for Causal Inference with Individual-Level Patient Generated Data.*](https://static1.squarespace.com/static/59d5ac1780bd5ef9c396eda6/t/5b73799889858325de8d72da/1534294439268/Wongvibulsin_S.pdf) MLHC: Proceedings of Machine Learning Research. 2018. 
+
+*	Wang J., __Wongvibulsin S.__, Henry K., Fujita S. [*Quantifying and Visualizing Medication Adherence in Patients Following Acute Myocardial Infarction.*](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5977657/) AMIA Annu Symp Proc. 2017.
+
+*	__Wongvibulsin S.__, Vazirani, S., Li Z., Heber D. [*Vitamin D – Beyond Bones: Its Relationship to Obesity, Metabolic Syndrome, and Diabetes.*](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6513299/) J Nutritional Therapeutics. 2014.
+
+*	__Wongvibulsin S.__, Lee S., Hui K. [*Achieving Balance Through the Art of Eating: Demystifying Eastern Nutrition and Blending it with Western Nutrition.*](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3943006/) J Traditional and Complementary Medicine. 2012.
