@@ -11,7 +11,7 @@ title: "Research"
 
 * __Machine Learning for Individualized COVID-19 Clinical Risk Prediction:__ under the advisement of Dr. Scott Zeger, PhD, Dr. Matthew Robinson, MD, Dr. Mei-Cheng Wang, PhD, and Dr. Brian Garibaldi, MD
 
-* __Big Data, Machine Learning, and Digital Health Technology for Precision Dermatology:__ under the advisement of Dr. Shawn Kwatra, MD, Dr. Yevgeniy (“Eugene”) Semenov, MD, MA, Dr. Scott Zeger, PhD
+* __Big Data, Machine Learning, and Digital Health Technology for Precision Dermatology:__ under the advisement of Dr. Shawn Kwatra, MD, Dr. Yevgeniy (“Eugene”) Semenov, MD, MA, and Dr. Scott Zeger, PhD
 
 ##
 ## Manuscripts in Submission
@@ -20,7 +20,7 @@ title: "Research"
 * __Wongvibulsin S.__, Sutaria N., Kannan S., Alphonse M., Belzberg M., Williams K., Brown I., Choi J., Roh Y., Pritchard T., Khanna R., Eseonu A., Jedrych J., Dillen C., Kwatra M., Chien A., Archer N., Garza L., Dong X., Kang S., Kwatra S. *Transcriptomic analysis of atopic dermatitis in African Americans is characterized by Th2/Th17-centered cutaneous immune activation.* 
 * __Wongvibulsin S.__, Sutaria N., Williams K., Huang A., Choi J., Roh Y., Hong M., Kelley D., Pahalyants V., Murphy W., Alphonse M., Bakhshi P., Walia A., Semenov Y., Kwatra, S. *A Nationwide Study of Prurigo Nodularis: Disease Burden and Health Care Utilization of Prurigo Nodularis in the U.S. Population.*
 
-* __Wongvibulsin S.__, Pahalyants V., Kalinich M., Murphy W., Yu K., Wang F., Chen S., Reynolds K., Kwatra S., Semenov Y. *Epidemiology and risk factors for the development of cutaneous toxicities in patients treated with immune checkpoint inhibitors: A United States population-level analysis.*
+* __Wongvibulsin S.\*__, Pahalyants V.\*, Kalinich M., Murphy W., Yu K., Wang F., Chen S., Reynolds K., Kwatra S., Semenov Y. (\* these authors contributed equally) *Epidemiology and risk factors for the development of cutaneous toxicities in patients treated with immune checkpoint inhibitors: A United States population-level analysis.*
 
 * __Wongvibulsin S.__, Habeos E., Huynh P., Xun H., Shan R., Rodriguez K., Wang J., Gandapur Y., Osuji N., Shah L., Spaulding E., Hung G., Knowles K., Yang W., Marvel F., Levin E., Maron D., Gordon N., Martin S. *Digital Interventions for Cardiac Rehabilitation: A Systematic Literature Review.* 
 
