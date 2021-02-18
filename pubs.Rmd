@@ -16,16 +16,22 @@ title: "Research"
 ##
 ## Manuscripts in Submission
 
-* __Wongvibulsin S.__, Garibaldi B., Antar A., Wen J., Wang M., Gupta A., Bollinger R., Xu Y., Wang K., Betz J., Muschelli J., Roche K., Zeger S., Robinson M. *Development of Severe COVID-19 Adaptive Risk Predictor (SCARP), a calculator to predict severe disease or death in hospitalized patients with COVID-19.* 
+* __Wongvibulsin S.__, Okoye G., Garza L. *Population-Level Study of Hidradenitis Suppurativa (HS) in the United States (US) Reveals Association with Obesity and Socioeconomic Status.* 
+
 * __Wongvibulsin S.__, Sutaria N., Kannan S., Alphonse M., Belzberg M., Williams K., Brown I., Choi J., Roh Y., Pritchard T., Khanna R., Eseonu A., Jedrych J., Dillen C., Kwatra M., Chien A., Archer N., Garza L., Dong X., Kang S., Kwatra S. *Transcriptomic analysis of atopic dermatitis in African Americans is characterized by Th2/Th17-centered cutaneous immune activation.* 
-* __Wongvibulsin S.__, Sutaria N., Williams K., Huang A., Choi J., Roh Y., Hong M., Kelley D., Pahalyants V., Murphy W., Alphonse M., Bakhshi P., Walia A., Semenov Y., Kwatra, S. *A Nationwide Study of Prurigo Nodularis: Disease Burden and Health Care Utilization of Prurigo Nodularis in the U.S. Population.*
 
 * __Wongvibulsin S.\*__, Pahalyants V.\*, Kalinich M., Murphy W., Yu K., Wang F., Chen S., Reynolds K., Kwatra S., Semenov Y. (\* these authors contributed equally) *Epidemiology and risk factors for the development of cutaneous toxicities in patients treated with immune checkpoint inhibitors: A United States population-level analysis.*
 
-* __Wongvibulsin S.__, Habeos E., Huynh P., Xun H., Shan R., Rodriguez K., Wang J., Gandapur Y., Osuji N., Shah L., Spaulding E., Hung G., Knowles K., Yang W., Marvel F., Levin E., Maron D., Gordon N., Martin S. *Digital Interventions for Cardiac Rehabilitation: A Systematic Literature Review.* 
-
 ##
 ## Publications
+
+* __Wongvibulsin S.__, Garibaldi B., Antar A., Wen J., Wang M., Gupta A., Bollinger R., Xu Y., Wang K., Betz J., Muschelli J., Roche K., Zeger S., Robinson M. *Development of Severe COVID-19 Adaptive Risk Predictor (SCARP), a calculator to predict severe disease or death in hospitalized patients with COVID-19.* Annals of Internal Medicine. 2021. (in press)
+
+* __Wongvibulsin S.__, Sutaria N., Williams K., Huang A., Choi J., Roh Y., Hong M., Kelley D., Pahalyants V., Murphy W., Alphonse M., Bakhshi P., Walia A., Semenov Y., Kwatra, S. *A Nationwide Study of Prurigo Nodularis: Disease Burden and Health Care Utilization of Prurigo Nodularis in the U.S. Population.* JID. 2021. (in press)
+
+* Belzberg M., Alphonse M., Brown I., Williams K., Ho B., __Wongvibulsin S.__, Prurigo Nodularis is Characterized by Systemic and Cutaneous Th22 Immune Polarization. JID. 2021. (in press)
+
+* __Wongvibulsin S.__, Habeos E., Huynh P., Xun H., Shan R., Rodriguez K., Wang J., Gandapur Y., Osuji N., Shah L., Spaulding E., Hung G., Knowles K., Yang W., Marvel F., Levin E., Maron D., Gordon N., Martin S. [*Digital Interventions for Cardiac Rehabilitation: A Systematic Literature Review.*](https://www.jmir.org/2021/2/e18773/) JMIR. 2021.
 
 * __Wongvibulsin S.__, Semenov Y., Khanna R., Zeger S., Kwatra S. [*Machine Learning (ML) Predictive Algorithm for Childhood-Onset Chronic Pruritic Dermatoses (CPD) Identifies Acrylamide and Glycidamide as Itch Modulators.*](https://www.jidonline.org/article/S0022-202X(20)31110-6/fulltext) JID. 2020.
 
