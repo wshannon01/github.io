@@ -3,6 +3,8 @@ title: "In the News"
 output: html_document
 ---
 
+[*Quest2Learn team hopes to improve virtual lab classes*](https://www.jhunewsletter.com/article/2020/11/quest2learn-team-hopes-to-improve-virtual-lab-classes)
+
 [*Malone Center Students Named as ATS Student Scholars*](https://malonecenter.jhu.edu/malone-center-students-named-ats-student-scholars/)
 
 [*Lifestyle Medicine Education Collaborative feature article on the Johns Hopkins University School of Medicine Teaching Kitchen*](http://lifestylemedicineeducation.org/johns-hopkins-university-school-of-medicine-teaching-kitchen/)
