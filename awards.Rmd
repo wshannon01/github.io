@@ -3,7 +3,7 @@ title: "Awards/Honors"
 output: html_document
 ---
 
-* 2021 Johns Hopkins Young Investigators’ Day David Yue Award
+* Johns Hopkins Young Investigators’ Day David Yue Award: 2021
 *	Nomination to Sigma Xi, The Scientific Research Honor Society: December 2019
 *	National Institutes of Health (NIH) Individual Predoctoral National Research Service Award (NRSA) MD/PhD Fellowship (F30): August 2018 – Present
 *	3rd Place in the American Medical Informatics Association Student Design Challenge: 2017
