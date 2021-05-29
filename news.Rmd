@@ -2,7 +2,11 @@
 title: "In the News"
 output: html_document
 ---
+[*Covid-19 Story Tip: Dynamic Tool Accurately Predicts Risk of COVID-19 Progressing to Severe Disease or Death*](https://www.hopkinsmedicine.org/news/newsroom/news-releases/covid-19-story-tip-dynamic-tool-accurately-predicts-risk-of-covid-19-progressing-to-severe-disease-or-death)
+
 [*Feature in Celebrating Young Investigators: Johns Hopkins 2021 Award Winners*](https://www.hopkinsmedicine.org/som/kudos/young-investigators-day-2021/bios.html#wongvibulsin)
+
+[*Young Investigators: Johns Hopkins 2021 Award Winner Profile*](https://hopkinsyidp.org/people/shannon-wongvibulsin/)
 
 [*Quest2Learn team hopes to improve virtual lab classes*](https://www.jhunewsletter.com/article/2020/11/quest2learn-team-hopes-to-improve-virtual-lab-classes)
 
