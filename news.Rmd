@@ -2,6 +2,9 @@
 title: "In the News"
 output: html_document
 ---
+
+[*Data-driven COVID-19 care*](https://hub.jhu.edu/2021/06/15/data-driven-covid-19-care/)
+
 [*Covid-19 Story Tip: Dynamic Tool Accurately Predicts Risk of COVID-19 Progressing to Severe Disease or Death*](https://www.hopkinsmedicine.org/news/newsroom/news-releases/covid-19-story-tip-dynamic-tool-accurately-predicts-risk-of-covid-19-progressing-to-severe-disease-or-death)
 
 [*Feature in Celebrating Young Investigators: Johns Hopkins 2021 Award Winners*](https://www.hopkinsmedicine.org/som/kudos/young-investigators-day-2021/bios.html#wongvibulsin)

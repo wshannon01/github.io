@@ -25,6 +25,7 @@ title: "Research"
 
 ##
 ## Publications
+
 * __Wongvibulsin S.__, Sutaria N., Kannan S., Alphonse M., Belzberg M., Williams K., Brown I., Choi J., Roh Y., Pritchard T., Khanna R., Eseonu A., Jedrych J., Dillen C., Kwatra M., Chien A., Archer N., Garza L., Dong X., Kang S., Kwatra S. *Transcriptomic analysis of atopic dermatitis in African Americans is characterized by Th2/Th17-centered cutaneous immune activation.* Scientific Reports. 2021. (in press)
 
 * __Wongvibulsin S.\*__, Pahalyants V.\*, Kalinich M., Murphy W., Yu K., Wang F., Chen S., Reynolds K., Kwatra S., Semenov Y. (\* these authors contributed equally) *Epidemiology and risk factors for the development of cutaneous toxicities in patients treated with immune checkpoint inhibitors: A United States population-level analysis.* JAAD. 2021. (in press)
@@ -32,6 +33,8 @@ title: "Research"
 * __Wongvibulsin S.__, Sutaria N., Williams K., Huang A., Choi J., Roh Y., Hong M., Kelley D., Pahalyants V., Murphy W., Alphonse M., Bakhshi P., Walia A., Semenov Y., Kwatra, S. *A Nationwide Study of Prurigo Nodularis: Disease Burden and Health Care Utilization of Prurigo Nodularis in the U.S. Population.* JID. 2021. (in press)
 
 * Belzberg M., Alphonse M., Brown I., Williams K., Ho B., __Wongvibulsin S.__, et al. *Prurigo Nodularis is Characterized by Systemic and Cutaneous Th22 Immune Polarization.* JID. 2021. (in press)
+
+* Marvel F., Spaulding E., Lee M., Yang W., Demo R., Ding J., Wang J., Xun H., Shah L., Weng D., Carter J., Majmudar M., Elgin E., Sheidy J., McLin R., Flowers J., Vilarino V., Lumelsky D., Bhardwaj V., Padula W., Shan R., Huynh P., __Wongvibulsin S.__, Leung C., Allen J., Martin S. [*Digital Health Intervention in Acute Myocardial Infarction*](https://www.ahajournals.org/doi/10.1161/CIRCOUTCOMES.121.007741) Circulation: Cardiovascular Quality and Outcomes. 2021.
 
 * __Wongvibulsin S.__, Garibaldi B., Antar A., Wen J., Wang M., Gupta A., Bollinger R., Xu Y., Wang K., Betz J., Muschelli J., Roche K., Zeger S., Robinson M. [*Development of Severe COVID-19 Adaptive Risk Predictor (SCARP), a calculator to predict severe disease or death in hospitalized patients with COVID-19.*](https://www.acpjournals.org/doi/10.7326/M20-6754) Annals of Internal Medicine. 2021.
 
