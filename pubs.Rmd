@@ -21,20 +21,30 @@ title: "Research"
 ##
 ## Manuscripts in Submission
 
-* __Wongvibulsin S.__, Okoye G., Garza L. *Population-Level Study of Hidradenitis Suppurativa (HS) in the United States (US) Reveals Association with Obesity and Socioeconomic Status.* 
+*	__Wongvibulsin S.__, Parthasarathy V., Pahalyants V., Murphy W., Sutaria N., Roh Y., Bordeaux, B., Deng J., Taylor M., Semenov Y., Kwatra S. *Latent Class Analysis Identification of Prurigo Nodularis Comorbidity Phenotypes.* 
+
+* __Wongvibulsin S.__, Frech T., Chren M., Tkaczyk E. *Expanding Personalized, Data-Driven Dermatology: Leveraging Digital Health Technology and Machine Learning to Improve Patient Outcomes.* 
+
+* Ostovaneh M., Dodge A., Wu C., Tracy R., Liu K., Zeger S., McClelland R., __Wongvibulsin S.__, Shea S., Bluemke D, Lima J., Ambale-Venkatesh B. *Machine Learning to Predict Short-versus Long-term Cardiovascular Outcomes: Multi-Ethnic Study of Atherosclerosis.* 
 
 ##
 ## Publications
 
-* __Wongvibulsin S.__, Sutaria N., Kannan S., Alphonse M., Belzberg M., Williams K., Brown I., Choi J., Roh Y., Pritchard T., Khanna R., Eseonu A., Jedrych J., Dillen C., Kwatra M., Chien A., Archer N., Garza L., Dong X., Kang S., Kwatra S. *Transcriptomic analysis of atopic dermatitis in African Americans is characterized by Th2/Th17-centered cutaneous immune activation.* Scientific Reports. 2021. (in press)
+* Sutaria N., Alphonse M., Marani M., Parthasarathy V., Deng J., __Wongvibulsin S.__, Williams K., Roh Y., Choi J., Bordeaux Z., Pritchard T., Dillen C., Semenov Y., Kwatra M., Archer N., Garza L., Dong X., Kang S., Kwatra S. *Cluster analysis of circulating plasma biomarkers in prurigo nodularis reveals a distinct systemic inflammatory signature in African Americans.* JID. 2021. (in press)
 
-* __Wongvibulsin S.\*__, Pahalyants V.\*, Kalinich M., Murphy W., Yu K., Wang F., Chen S., Reynolds K., Kwatra S., Semenov Y. (\* these authors contributed equally) *Epidemiology and risk factors for the development of cutaneous toxicities in patients treated with immune checkpoint inhibitors: A United States population-level analysis.* JAAD. 2021. (in press)
+* Bhardwaj V., Spaulding E., Marvel F., LaFave S., Yu J., Mota D., Lorigiano T., Huynh P., Shan R., Yesantharao P., Lee M., Yang W., Demo R., Ding J., Wang J., Xun H., Shah L., Weng D., __Wongvibulsin S.__, Carter J., Sheidy J., McLin R., Flowers J., Majmudar M., Elgin E., Vilarino V., Lumelsky D., Leung C., Allen J., Martin S., Padula W. [*Cost-effectiveness of a Digital Health Intervention for Acute Myocardial Infarction Recovery.*](https://journals.lww.com/lww-medicalcare/Abstract/9000/Cost_effectiveness_of_a_Digital_Health.98112.aspx) Med Care. 2021.
 
-* __Wongvibulsin S.__, Sutaria N., Williams K., Huang A., Choi J., Roh Y., Hong M., Kelley D., Pahalyants V., Murphy W., Alphonse M., Bakhshi P., Walia A., Semenov Y., Kwatra, S. *A Nationwide Study of Prurigo Nodularis: Disease Burden and Health Care Utilization of Prurigo Nodularis in the U.S. Population.* JID. 2021. (in press)
+* Kalinich M., Murphy W., __Wongvibulsin S.__, Pahalyants V., Yu K., Lu C., Zubiri L., Naranbhai, V., Gusev A., Kwatra S., Reynolds K., Semenov Y. [*Prediction of severe immune-related adverse events requiring hospital admission in patients on immune checkpoint inhibitors: study of a population level insurance claims database from the USA.*](https://jitc.bmj.com/content/9/3/e001935) Journal for ImmunoTherapy of Cancer. 2021.
 
-* Belzberg M., Alphonse M., Brown I., Williams K., Ho B., __Wongvibulsin S.__, et al. *Prurigo Nodularis is Characterized by Systemic and Cutaneous Th22 Immune Polarization.* JID. 2021. (in press)
+* __Wongvibulsin S.__, Sutaria N., Kannan S., Alphonse M., Belzberg M., Williams K., Brown I., Choi J., Roh Y., Pritchard T., Khanna R., Eseonu A., Jedrych J., Dillen C., Kwatra M., Chien A., Archer N., Garza L., Dong X., Kang S., Kwatra S. [*Transcriptomic analysis of atopic dermatitis in African Americans is characterized by Th2/Th17-centered cutaneous immune activation.*](https://www.nature.com/articles/s41598-021-90105-w) Scientific Reports. 2021. 
 
-* Marvel F., Spaulding E., Lee M., Yang W., Demo R., Ding J., Wang J., Xun H., Shah L., Weng D., Carter J., Majmudar M., Elgin E., Sheidy J., McLin R., Flowers J., Vilarino V., Lumelsky D., Bhardwaj V., Padula W., Shan R., Huynh P., __Wongvibulsin S.__, Leung C., Allen J., Martin S. [*Digital Health Intervention in Acute Myocardial Infarction*](https://www.ahajournals.org/doi/10.1161/CIRCOUTCOMES.121.007741) Circulation: Cardiovascular Quality and Outcomes. 2021.
+* __Wongvibulsin S.\*__, Pahalyants V.\*, Kalinich M., Murphy W., Yu K., Wang F., Chen S., Reynolds K., Kwatra S., Semenov Y. (\* these authors contributed equally) [*Epidemiology and risk factors for the development of cutaneous toxicities in patients treated with immune checkpoint inhibitors: A United States population-level analysis.*](https://www.jaad.org/article/S0190-9622(21)00661-7/fulltext) JAAD. 2021. 
+
+* __Wongvibulsin S.__, Sutaria N., Williams K., Huang A., Choi J., Roh Y., Hong M., Kelley D., Pahalyants V., Murphy W., Alphonse M., Bakhshi P., Walia A., Semenov Y., Kwatra, S. [*A Nationwide Study of Prurigo Nodularis: Disease Burden and Health Care Utilization of Prurigo Nodularis in the U.S. Population.*](https://www.sciencedirect.com/science/article/pii/S0022202X21011301) JID. 2021. 
+
+* Belzberg M., Alphonse M., Brown I., Williams K., Ho B., __Wongvibulsin S.__, et al. [*Prurigo Nodularis is Characterized by Systemic and Cutaneous Th22 Immune Polarization.*](https://www.sciencedirect.com/science/article/pii/S0022202X21010162?via%3Dihub) JID. 2021. 
+
+* Marvel F., Spaulding E., Lee M., Yang W., Demo R., Ding J., Wang J., Xun H., Shah L., Weng D., Carter J., Majmudar M., Elgin E., Sheidy J., McLin R., Flowers J., Vilarino V., Lumelsky D., Bhardwaj V., Padula W., Shan R., Huynh P., __Wongvibulsin S.__, Leung C., Allen J., Martin S. [*Digital Health Intervention in Acute Myocardial Infarction*](https://www.ahajournals.org/doi/10.1161/CIRCOUTCOMES.121.007741) Circulation: Cardiovascular Quality and Outcomes. 2021. 
 
 * __Wongvibulsin S.__, Garibaldi B., Antar A., Wen J., Wang M., Gupta A., Bollinger R., Xu Y., Wang K., Betz J., Muschelli J., Roche K., Zeger S., Robinson M. [*Development of Severe COVID-19 Adaptive Risk Predictor (SCARP), a calculator to predict severe disease or death in hospitalized patients with COVID-19.*](https://www.acpjournals.org/doi/10.7326/M20-6754) Annals of Internal Medicine. 2021.
 
