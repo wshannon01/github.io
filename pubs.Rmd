@@ -21,16 +21,21 @@ title: "Research"
 ##
 ## Manuscripts in Submission
 
+* Kulkarni V., Okoye G., Garza L., __Wongvibulsin S.__ *The Association of Obesity and Socioeconomic Status with Hidradenitis Suppurativa (HS): Infodemiology Study of Google Search Data.*
+
 *	__Wongvibulsin S.__, Parthasarathy V., Pahalyants V., Murphy W., Sutaria N., Roh Y., Bordeaux, B., Deng J., Taylor M., Semenov Y., Kwatra S. *Latent Class Analysis Identification of Prurigo Nodularis Comorbidity Phenotypes.* 
 
 * __Wongvibulsin S.__, Frech T., Chren M., Tkaczyk E. *Expanding Personalized, Data-Driven Dermatology: Leveraging Digital Health Technology and Machine Learning to Improve Patient Outcomes.* 
 
-* Ostovaneh M., Dodge A., Wu C., Tracy R., Liu K., Zeger S., McClelland R., __Wongvibulsin S.__, Shea S., Bluemke D, Lima J., Ambale-Venkatesh B. *Machine Learning to Predict Short-versus Long-term Cardiovascular Outcomes: Multi-Ethnic Study of Atherosclerosis.* 
+<!-- * Ostovaneh M., Dodge A., Wu C., Tracy R., Liu K., Zeger S., McClelland R., __Wongvibulsin S.__, Shea S., Bluemke D, Lima J., Ambale-Venkatesh B. *Machine Learning to Predict Short-versus Long-term Cardiovascular Outcomes: Multi-Ethnic Study of Atherosclerosis.*  -->
+
 
 ##
 ## Publications
 
-* Sutaria N., Alphonse M., Marani M., Parthasarathy V., Deng J., __Wongvibulsin S.__, Williams K., Roh Y., Choi J., Bordeaux Z., Pritchard T., Dillen C., Semenov Y., Kwatra M., Archer N., Garza L., Dong X., Kang S., Kwatra S. *Cluster analysis of circulating plasma biomarkers in prurigo nodularis reveals a distinct systemic inflammatory signature in African Americans.* JID. 2021. (in press)
+* Sutaria N., Alphonse M., Marani M., Parthasarathy V., Deng J., __Wongvibulsin S.__, Williams K., Roh Y., Choi J., Bordeaux Z., Pritchard T., Dillen C., Semenov Y., Kwatra M., Archer N., Garza L., Dong X., Kang S., Kwatra S. [*Cluster analysis of circulating plasma biomarkers in prurigo nodularis reveals a distinct systemic inflammatory signature in African Americans.*](https://www.sciencedirect.com/science/article/pii/S0022202X21023836) JID. 2021.
+
+* Roh Y., Huang A., Sutaria N., Choi U., __Wongvibulsin S.__, et al. [*Real-world comorbidities of atopic dermatitis in the U.S. adult ambulatory population.*](https://www.sciencedirect.com/science/article/pii/S0190962221028383?via%3Dihub) JAAD. 2021.
 
 * Bhardwaj V., Spaulding E., Marvel F., LaFave S., Yu J., Mota D., Lorigiano T., Huynh P., Shan R., Yesantharao P., Lee M., Yang W., Demo R., Ding J., Wang J., Xun H., Shah L., Weng D., __Wongvibulsin S.__, Carter J., Sheidy J., McLin R., Flowers J., Majmudar M., Elgin E., Vilarino V., Lumelsky D., Leung C., Allen J., Martin S., Padula W. [*Cost-effectiveness of a Digital Health Intervention for Acute Myocardial Infarction Recovery.*](https://journals.lww.com/lww-medicalcare/Abstract/9000/Cost_effectiveness_of_a_Digital_Health.98112.aspx) Med Care. 2021.
 
