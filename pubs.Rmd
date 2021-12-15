@@ -35,6 +35,8 @@ title: "Research"
 
 * Sutaria N., Alphonse M., Marani M., Parthasarathy V., Deng J., __Wongvibulsin S.__, Williams K., Roh Y., Choi J., Bordeaux Z., Pritchard T., Dillen C., Semenov Y., Kwatra M., Archer N., Garza L., Dong X., Kang S., Kwatra S. [*Cluster analysis of circulating plasma biomarkers in prurigo nodularis reveals a distinct systemic inflammatory signature in African Americans.*](https://www.sciencedirect.com/science/article/pii/S0022202X21023836) JID. 2021.
 
+* Knowles K., Xun H., Jang S., Pang S., Ng C., Sharma A., Spaulding E., Singh R., Diab A., Osuji N., Materi J., Amundsen D., __Wongvibulsin S.__, Weng D., Huynh P., Nanavati J., Wolff J., Marvel F., Martin S. [*Clinicians for CARE: A Systematic Review and Meta-Analysis of Interventions to Support Caregivers of Patients With Heart Disease.*](https://www.ahajournals.org/doi/10.1161/JAHA.120.019706) J Am Heart Assoc. 2021.
+
 * Roh Y., Huang A., Sutaria N., Choi U., __Wongvibulsin S.__, et al. [*Real-world comorbidities of atopic dermatitis in the U.S. adult ambulatory population.*](https://www.sciencedirect.com/science/article/pii/S0190962221028383?via%3Dihub) JAAD. 2021.
 
 * Bhardwaj V., Spaulding E., Marvel F., LaFave S., Yu J., Mota D., Lorigiano T., Huynh P., Shan R., Yesantharao P., Lee M., Yang W., Demo R., Ding J., Wang J., Xun H., Shah L., Weng D., __Wongvibulsin S.__, Carter J., Sheidy J., McLin R., Flowers J., Majmudar M., Elgin E., Vilarino V., Lumelsky D., Leung C., Allen J., Martin S., Padula W. [*Cost-effectiveness of a Digital Health Intervention for Acute Myocardial Infarction Recovery.*](https://journals.lww.com/lww-medicalcare/Abstract/9000/Cost_effectiveness_of_a_Digital_Health.98112.aspx) Med Care. 2021.
