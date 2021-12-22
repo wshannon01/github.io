@@ -21,9 +21,9 @@ title: "Research"
 ##
 ## Manuscripts in Submission
 
-* Kulkarni V., Okoye G., Garza L., __Wongvibulsin S.__ *The Association of Obesity and Socioeconomic Status with Hidradenitis Suppurativa (HS): Infodemiology Study of Google Search Data.*
+* __Wongvibulsin S.__, Feterik K. *Medical photography underutilized as a clinical tool.* 
 
-*	__Wongvibulsin S.__, Parthasarathy V., Pahalyants V., Murphy W., Sutaria N., Roh Y., Bordeaux, B., Deng J., Taylor M., Semenov Y., Kwatra S. *Latent Class Analysis Identification of Prurigo Nodularis Comorbidity Phenotypes.* 
+* Kulkarni V., Okoye G., Garza L., __Wongvibulsin S.__ *The Association of Obesity and Socioeconomic Status with Hidradenitis Suppurativa (HS): Infodemiology Study of Google Search Data.*
 
 * __Wongvibulsin S.__, Frech T., Chren M., Tkaczyk E. *Expanding Personalized, Data-Driven Dermatology: Leveraging Digital Health Technology and Machine Learning to Improve Patient Outcomes.* 
 
@@ -32,6 +32,8 @@ title: "Research"
 
 ##
 ## Publications
+
+*	__Wongvibulsin S.__, Parthasarathy V., Pahalyants V., Murphy W., Sutaria N., Roh Y., Bordeaux, B., Deng J., Taylor M., Semenov Y., Kwatra S. *Latent Class Analysis Identification of Prurigo Nodularis Comorbidity Phenotypes.* BJD. 2021. (in press)
 
 * Sutaria N., Alphonse M., Marani M., Parthasarathy V., Deng J., __Wongvibulsin S.__, Williams K., Roh Y., Choi J., Bordeaux Z., Pritchard T., Dillen C., Semenov Y., Kwatra M., Archer N., Garza L., Dong X., Kang S., Kwatra S. [*Cluster analysis of circulating plasma biomarkers in prurigo nodularis reveals a distinct systemic inflammatory signature in African Americans.*](https://www.sciencedirect.com/science/article/pii/S0022202X21023836) JID. 2021.
 
