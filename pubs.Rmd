@@ -33,7 +33,7 @@ title: "Research"
 ##
 ## Publications
 
-*	__Wongvibulsin S.__, Parthasarathy V., Pahalyants V., Murphy W., Sutaria N., Roh Y., Bordeaux, B., Deng J., Taylor M., Semenov Y., Kwatra S. *Latent Class Analysis Identification of Prurigo Nodularis Comorbidity Phenotypes.* BJD. 2021. (in press)
+*	__Wongvibulsin S.__, Parthasarathy V., Pahalyants V., Murphy W., Sutaria N., Roh Y., Bordeaux, B., Deng J., Taylor M., Semenov Y., Kwatra S. [*Latent Class Analysis Identification of Prurigo Nodularis Comorbidity Phenotypes.*](https://onlinelibrary.wiley.com/doi/10.1111/bjd.20957) BJD. 2021.
 
 * Sutaria N., Alphonse M., Marani M., Parthasarathy V., Deng J., __Wongvibulsin S.__, Williams K., Roh Y., Choi J., Bordeaux Z., Pritchard T., Dillen C., Semenov Y., Kwatra M., Archer N., Garza L., Dong X., Kang S., Kwatra S. [*Cluster analysis of circulating plasma biomarkers in prurigo nodularis reveals a distinct systemic inflammatory signature in African Americans.*](https://www.sciencedirect.com/science/article/pii/S0022202X21023836) JID. 2021.
 
