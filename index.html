@@ -13,17 +13,25 @@
 
 <title>About Me</title>
 
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/paper.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/anchor-sections-1.0/anchor-sections.css" rel="stylesheet" />
-<script src="site_libs/anchor-sections-1.0/anchor-sections.js"></script>
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -35,11 +43,6 @@
     </style>
 
 <style type="text/css">code{white-space: pre;}</style>
-<style type="text/css">
-  pre:not([class]) {
-    background-color: white;
-  }
-</style>
 <script type="text/javascript">
 if (window.hljs) {
   hljs.configure({languages: []});
@@ -52,32 +55,8 @@ if (window.hljs) {
 
 
 
-<style type="text/css">
-h1 {
-  font-size: 34px;
-}
-h1.title {
-  font-size: 38px;
-}
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 24px;
-}
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
-}
-</style>
+
+
 
 <link rel="stylesheet" href="styles.css" type="text/css" />
 
@@ -88,10 +67,6 @@ h6 {
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
-}
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
 }
 img {
   max-width:100%;
@@ -108,40 +83,16 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
 </style>
 
 
 <style type="text/css">
-/* padding for bootstrap navbar */
-body {
-  padding-top: 64px;
-  padding-bottom: 40px;
-}
-/* offset scroll position for anchor links (for fixed navbar)  */
-.section h1 {
-  padding-top: 69px;
-  margin-top: -69px;
-}
-.section h2 {
-  padding-top: 69px;
-  margin-top: -69px;
-}
-.section h3 {
-  padding-top: 69px;
-  margin-top: -69px;
-}
-.section h4 {
-  padding-top: 69px;
-  margin-top: -69px;
-}
-.section h5 {
-  padding-top: 69px;
-  margin-top: -69px;
-}
-.section h6 {
-  padding-top: 69px;
-  margin-top: -69px;
-}
 .dropdown-submenu {
   position: relative;
 }
@@ -169,7 +120,7 @@ body {
   margin-right: -10px;
 }
 .dropdown-submenu:hover>a:after {
-  border-left-color: #ffffff;
+  border-left-color: #adb5bd;
 }
 .dropdown-submenu.pull-left {
   float: none;
@@ -181,7 +132,7 @@ body {
 }
 </style>
 
-<script>
+<script type="text/javascript">
 // manage active state of menu based on current page
 $(document).ready(function () {
   // active menu anchor
@@ -192,10 +143,23 @@ $(document).ready(function () {
   var menuAnchor = $('a[href="' + href + '"]');
 
   // mark it active
-  menuAnchor.parent().addClass('active');
+  menuAnchor.tab('show');
 
   // if it's got a parent navbar menu mark it active as well
   menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
 });
 </script>
 
@@ -207,7 +171,6 @@ $(document).ready(function () {
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
-  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
@@ -274,7 +237,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -312,7 +275,7 @@ $(document).ready(function () {
   </div><!--/.container -->
 </div><!--/.navbar -->
 
-<div class="fluid-row" id="header">
+<div id="header">
 
 
 
@@ -323,11 +286,39 @@ $(document).ready(function () {
 
 <p><link rel="stylesheet" href="styles.css" type="text/css"></p>
 <p><img src="me3.jpeg" style="width:20%; border:2px solid; margin-right: 20px" align="left"></p>
-<p>I am a graduate of the <a href="https://mdphd.johnshopkins.edu/"><strong>Johns Hopkins School of Medicine: Medical Scientist Training/MD-PhD Program</strong></a>, and I will be joining the <a href="https://medschool.ucla.edu/star"><strong>University of California, Los Angeles (UCLA) Specialty Training and Advanced Research (STAR) Program</strong></a> for <a href="https://www.uclahealth.org/dermatology/residency-program"><strong>dermatology residency</strong></a>.</p>
-<p>My interests include: <strong>precision dermatology</strong>, <strong>preventive medicine</strong>, <strong>public health</strong>, <strong>data science</strong>, <strong>machine learning</strong>, and <strong>digital health</strong>.</p>
-<p>I am currently performing research in computational medicine as part of the <a href="https://www.hopkinsmedicine.org/inhealth/"><strong>Hopkins Individualized Health Initiative</strong></a> to improve disease prevention, diagnosis, and treatment through data science and predictive analytics. With support from the <strong>NIH F30 Ruth L. Kirschstein National Research Service Award</strong>, I completed my PhD in biomedical engineering with a focus on machine learning for clinical risk prediction, under the mentorship of <a href="https://malonecenter.jhu.edu/people/scott-zeger/"><strong>Dr. Scott Zeger</strong></a>, the John C. Malone Professor of Biostatistics and Medicine.</p>
-<p>Before starting my training as a physician scientist at Hopkins, I completed my undergraduate studies in bioengineering and biomedical research at the University of California, Los Angeles (UCLA). At UCLA, I also performed tissue engineering research in <a href="https://weintraubcenter.dentistry.ucla.edu/wu-lab"><strong>Dr. Benjamin Wu’s lab</strong></a> as a Howard Hughes Undergraduate Research Program Scholar and Goldwater Scholar.</p>
-<p>Contact information: swongvi1 at jhmi dot edu</p>
+<p>I am a graduate of the <a
+href="https://mdphd.johnshopkins.edu/"><strong>Johns Hopkins School of
+Medicine: Medical Scientist Training/MD-PhD Program</strong></a>, and I
+will be joining the <a
+href="https://medschool.ucla.edu/star"><strong>University of California,
+Los Angeles (UCLA) Specialty Training and Advanced Research (STAR)
+Program</strong></a> for <a
+href="https://www.uclahealth.org/dermatology/residency-program"><strong>dermatology
+residency</strong></a>.</p>
+<p>My interests include: <strong>precision dermatology</strong>,
+<strong>preventive medicine</strong>, <strong>public health</strong>,
+<strong>data science</strong>, <strong>machine learning</strong>, and
+<strong>digital health</strong>.</p>
+<p>I am currently performing research in computational medicine as part
+of the <a
+href="https://www.hopkinsmedicine.org/inhealth/"><strong>Hopkins
+Individualized Health Initiative</strong></a> to improve disease
+prevention, diagnosis, and treatment through data science and predictive
+analytics. With support from the <strong>NIH F30 Ruth L. Kirschstein
+National Research Service Award</strong>, I completed my PhD in
+biomedical engineering with a focus on machine learning for clinical
+risk prediction, under the mentorship of <a
+href="https://malonecenter.jhu.edu/people/scott-zeger/"><strong>Dr. Scott
+Zeger</strong></a>, the John C. Malone Professor of Biostatistics and
+Medicine.</p>
+<p>Before starting my training as a physician scientist at Hopkins, I
+completed my undergraduate studies in bioengineering and biomedical
+research at the University of California, Los Angeles (UCLA). At UCLA, I
+also performed tissue engineering research in <a
+href="https://weintraubcenter.dentistry.ucla.edu/wu-lab"><strong>Dr. Benjamin
+Wu’s lab</strong></a> as a Howard Hughes Undergraduate Research Program
+Scholar and Goldwater Scholar.</p>
+<p>Contact information: swongvibulsin at mednet dot ucla dot edu</p>
 
 
 
@@ -356,7 +347,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
+    $(this).parent().toggleClass('nav-tabs-open');
   });
 });
 </script>
