@@ -7,11 +7,11 @@ title: "Research"
 ![](overview.jpg)
 
 ##
-## Current Projects
+<!--## ## Current Projects
 
 * __Machine Learning for Individualized COVID-19 Clinical Risk Prediction:__ under the advisement of Dr. Scott Zeger, PhD, Dr. Matthew Robinson, MD, Dr. Mei-Cheng Wang, PhD, and Dr. Brian Garibaldi, MD
 
-* __Big Data, Machine Learning, and Digital Health Technology for Precision Dermatology:__ under the advisement of Dr. Shawn Kwatra, MD, Dr. Yevgeniy (“Eugene”) Semenov, MD, MA, and Dr. Scott Zeger, PhD
+* __Big Data, Machine Learning, and Digital Health Technology for Precision Dermatology:__ under the advisement of Dr. Shawn Kwatra, MD, Dr. Yevgeniy (“Eugene”) Semenov, MD, MA, and Dr. Scott Zeger, PhD !-->
 
 ##
 ## Recent Presentations
@@ -23,12 +23,11 @@ title: "Research"
 
 ##
 ## Publications
-* __Wongvibulsin S.__, Feterik K. *Recommendations for Better Adoption of Medical Photography as a Clinical Tool: Viewpoint.* In Press. 2022.
-
-* Kulkarni V., Okoye G., Garza L., __Wongvibulsin S.__ [*
-Geospatial Heterogeneity of Hidradenitis Suppurativa Searches in the United States: Infodemiology Study of Google Search Data.*](https://derma.jmir.org/2022/2/e34594) JMIR Derm. 2022.
-
 * __Wongvibulsin S.__, Frech T., Chren M., Tkaczyk E. [*Expanding Personalized, Data-Driven Dermatology: Leveraging Digital Health Technology and Machine Learning to Improve Patient Outcomes.*](https://www.jidinnovations.org/article/S2667-0267(22)00012-1/fulltext) JID Innovations. 2022. 
+
+* Kulkarni V., Okoye G., Garza L., __Wongvibulsin S.__ [*Geospatial Heterogeneity of Hidradenitis Suppurativa Searches in the United States: Infodemiology Study of Google Search Data.*](https://derma.jmir.org/2022/2/e34594) JMIR Derm. 2022.
+
+* __Wongvibulsin S.__, Feterik K. [*Recommendations for Better Adoption of Medical Photography as a Clinical Tool: Viewpoint.*](https://www.i-jmr.org/2022/2/e36102) Interact J Med Res. 2022.
 
 *	__Wongvibulsin S.__, Parthasarathy V., Pahalyants V., Murphy W., Sutaria N., Roh Y., Bordeaux, B., Deng J., Taylor M., Semenov Y., Kwatra S. [*Latent Class Analysis Identification of Prurigo Nodularis Comorbidity Phenotypes.*](https://onlinelibrary.wiley.com/doi/10.1111/bjd.20957) BJD. 2021.
 
