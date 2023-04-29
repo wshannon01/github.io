@@ -18,7 +18,7 @@ title: "Research"
 ## Upcoming Presentation
 * __May 2023: [*International Symposium on Artificial Intelligence in Dermatology at the International Societies For Investigative Dermatology Meeting (ISID)*](https://isid2023.org/):__ __Wongvibulsin S.__  *Enabling Precision Dermatology with Artificial Intelligence.* 
 
-## Selected Past Presentations
+## Selected Prior Presentations
 * __April 2021: [*Interurban Clinical Club*](http://interurbanclinicalclub.org/):__ __Wongvibulsin S.__  *Leveraging Big Data and Machine Learning for Clinical Risk Prediction.* 
 * __May 2021: [*Society of Investigative Dermatology (SID) Virtual Meeting*](https://www.sidannualmeeting.org/):__ __Wongvibulsin S.__, Okoye G., Garza L. *Population-Level Study of Hidradenitis Suppurativa (HS) in the United States (US) Reveals Association with Obesity and Socioeconomic Status.* 
 
