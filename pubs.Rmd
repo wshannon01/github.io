@@ -27,7 +27,7 @@ title: "Research"
 
 ##
 ## Publications
-* __Wongvibulsin S.__ and Adamson A. [*Deep learning for Mpox: Advances, challenges, and opportunities.*](https://www.cell.com/med/home) Cell Press - Med (2023, in press).
+* __Wongvibulsin S.__ and Adamson A. [*Deep learning for Mpox: Advances, challenges, and opportunities.*](https://www.cell.com/med/pdf/S2666-6340(23)00134-4.pdf) Cell Press - Med. 2023.
 
 * __Wongvibulsin S.__, Frech T., Chren M., Tkaczyk E. [*Expanding Personalized, Data-Driven Dermatology: Leveraging Digital Health Technology and Machine Learning to Improve Patient Outcomes.*](https://www.jidinnovations.org/article/S2667-0267(22)00012-1/fulltext) JID Innovations. 2022. 
 
