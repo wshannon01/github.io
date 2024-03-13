@@ -18,6 +18,7 @@ title: "Research"
 <!--## Upcoming Presentation !-->
 
 ## Selected Prior Presentations
+* __March 2024: [*The American Academy of Dermatology (AAD) Annual Meeting*](https://www.aad.org/member/meetings-education/am24):__ __Wongvibulsin S.__ *The 2024 Debates: Controversies in Dermatology - Artificial Intelligence (AI) in Dermatology*
 * __May 2023: [*International Symposium on Artificial Intelligence in Dermatology at the International Societies For Investigative Dermatology Meeting (ISID)*](https://isid2023.org/):__ __Wongvibulsin S.__  *Enabling Precision Dermatology with Artificial Intelligence.* 
 * __April 2021: [*Interurban Clinical Club*](http://interurbanclinicalclub.org/):__ __Wongvibulsin S.__  *Leveraging Big Data and Machine Learning for Clinical Risk Prediction.* 
 * __May 2021: [*Society of Investigative Dermatology (SID) Virtual Meeting*](https://www.sidannualmeeting.org/):__ __Wongvibulsin S.__, Okoye G., Garza L. *Population-Level Study of Hidradenitis Suppurativa (HS) in the United States (US) Reveals Association with Obesity and Socioeconomic Status.* 
@@ -27,6 +28,9 @@ title: "Research"
 
 ##
 ## Publications
+
+* __Wongvibulsin S.,__ Yan M., Pahalyants V., Murphy W., Daneshjou R., Rotemberg V. [*Current State of Dermatology Mobile Applications With Artificial Intelligence Features: A Scoping Review.*](https://jamanetwork.com/journals/jamadermatology/fullarticle/2815800) JAMA Derm. 2024.
+
 * __Wongvibulsin S.__ and Adamson A. [*Deep learning for Mpox: Advances, challenges, and opportunities.*](https://www.cell.com/med/pdf/S2666-6340(23)00134-4.pdf) Cell Press - Med. 2023.
 
 * __Wongvibulsin S.__, Frech T., Chren M., Tkaczyk E. [*Expanding Personalized, Data-Driven Dermatology: Leveraging Digital Health Technology and Machine Learning to Improve Patient Outcomes.*](https://www.jidinnovations.org/article/S2667-0267(22)00012-1/fulltext) JID Innovations. 2022. 

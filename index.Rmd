@@ -7,7 +7,7 @@ output: html_document
 
 <img src="me3.jpeg" style="width:20%; border:2px solid; margin-right: 20px" align="left">
 
-I am a graduate of the [__Johns Hopkins School of Medicine: Medical Scientist Training/MD-PhD Program__](https://mdphd.johnshopkins.edu/) and I am currently a [__first year resident__](https://www.uclahealth.org/dermatology/body.cfm?id=151&action=detail&ref=120) in the [__University of California, Los Angeles (UCLA) Specialty Training and Advanced Research (STAR) Program__](https://medschool.ucla.edu/star) and [__dermatology residency__](https://www.uclahealth.org/dermatology/residency-program).
+I am a graduate of the [__Johns Hopkins School of Medicine: Medical Scientist Training/MD-PhD Program__](https://mdphd.johnshopkins.edu/) and I am currently a [__resident__](https://www.uclahealth.org/dermatology/body.cfm?id=151&action=detail&ref=120) in the [__University of California, Los Angeles (UCLA) Specialty Training and Advanced Research (STAR) Program__](https://medschool.ucla.edu/star) and [__dermatology residency__](https://www.uclahealth.org/dermatology/residency-program).
 
 My interests include: __precision dermatology__, __preventive medicine__, __public health__, __data science__, __machine learning__, and __digital health__.
 
