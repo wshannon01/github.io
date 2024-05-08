@@ -29,7 +29,9 @@ title: "Research"
 ##
 ## Publications
 
-* __Wongvibulsin S.,__ Yan M., Pahalyants V., Murphy W., Daneshjou R., Rotemberg V. [*Current State of Dermatology Mobile Applications With Artificial Intelligence Features*](https://jamanetwork.com/journals/jamadermatology/fullarticle/2815800) JAMA Derm. 2024.
+* __Wongvibulsin S.__, Yan M., Pahalyants V., Murphy W., Daneshjou R., Rotemberg V. [*Current State of Dermatology Mobile Applications With Artificial Intelligence Features.*](https://jamanetwork.com/journals/jamadermatology/fullarticle/2815800) JAMA Derm. 2024.
+
+* Lee I., Aninos A., Lester J., Rotemberg V., Schlessinger D., Weed J., __Wongvibulsin S.__, Daneshjou R. [*Engaging industry effectively and ethically in artificial intelligence from the Augmented Artificial Intelligence Committee Standards Workgroup.*](https://doi.org/10.1016/j.jaad.2024.03.036) JAAD. 2024
 
 * __Wongvibulsin S.__ and Adamson A. [*Deep learning for Mpox: Advances, challenges, and opportunities.*](https://www.cell.com/med/pdf/S2666-6340(23)00134-4.pdf) Cell Press - Med. 2023.
 
