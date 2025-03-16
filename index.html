@@ -13,7 +13,7 @@
 
 <title>About Me</title>
 
-<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.25/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/paper.min.css" rel="stylesheet" />
@@ -142,11 +142,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -175,8 +179,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -184,16 +188,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -288,26 +285,39 @@ $(document).ready(function () {
 <p><img src="me3.jpeg" style="width:20%; border:2px solid; margin-right: 20px" align="left"></p>
 <p>I am a graduate of the <a
 href="https://mdphd.johnshopkins.edu/"><strong>Johns Hopkins School of
-Medicine: Medical Scientist Training/MD-PhD Program</strong></a> and I
-am currently a <a
-href="https://www.uclahealth.org/dermatology/body.cfm?id=151&amp;action=detail&amp;ref=120"><strong>resident</strong></a>
-in the <a href="https://medschool.ucla.edu/star"><strong>University of
-California, Los Angeles (UCLA) Specialty Training and Advanced Research
-(STAR) Program</strong></a> and <a
+Medicine: Medical Scientist Training/MD-PhD Program</strong></a>, and I
+am currently a resident in the <a
+href="https://medschool.ucla.edu/star"><strong>University of California,
+Los Angeles (UCLA) Specialty Training and Advanced Research (STAR)
+Program</strong></a> and <a
 href="https://www.uclahealth.org/dermatology/residency-program"><strong>dermatology
 residency</strong></a>.</p>
 <p>My interests include: <strong>precision dermatology</strong>,
 <strong>preventive medicine</strong>, <strong>public health</strong>,
-<strong>data science</strong>, <strong>machine learning</strong>, and
-<strong>digital health</strong>.</p>
-<p>I have performed research in computational medicine as part of the <a
+<strong>data science</strong>, <strong>augmented/artificial
+intelligence</strong>, and <strong>digital health</strong>.</p>
+<p>I am a recipient of the <a
+href="https://dermatologyfoundation.org/rap/"><strong>Dermatology
+Foundation: Dermatologist Investigator Research Fellowship</strong></a>,
+and I am currently conducting research in <a
+href="https://www.ee.ucla.edu/aydogan-ozcan/"><strong>Dr. Aydogan
+Ozcan’s lab</strong></a> to improve the diagnosis and management of
+inflammatory skin diseases. Additionally, I serve on the <a
+href="https://www.aad.org/"><strong>American Academy of Dermatology
+(AAD) Augmented Intelligence Committee</strong></a> and the <a
+href="https://siim.org/membership/get-involved/committees/enterprise-imaging/"><strong>Society
+for Imaging Informatics in Medicine (SIIM) Enterprise Imaging
+Committee</strong></a>.</p>
+<p>Previously, I have performed research in computational medicine as
+part of the <a
 href="https://www.hopkinsmedicine.org/inhealth/"><strong>Hopkins
 Individualized Health Initiative</strong></a> to improve disease
 prevention, diagnosis, and treatment through data science and predictive
-analytics. With support from the <strong>NIH F30 Ruth L. Kirschstein
-National Research Service Award</strong>, I completed my PhD in
-biomedical engineering with a focus on machine learning for clinical
-risk prediction, under the mentorship of <a
+analytics. With support from the <a
+href="https://researchtraining.nih.gov/programs/fellowships/F30"><strong>NIH
+F30 Ruth L. Kirschstein National Research Service Award</strong></a>, I
+completed my PhD in biomedical engineering with a focus on machine
+learning for clinical risk prediction, under the mentorship of <a
 href="https://malonecenter.jhu.edu/people/scott-zeger/"><strong>Dr. Scott
 Zeger</strong></a>, the John C. Malone Professor of Biostatistics and
 Medicine.</p>

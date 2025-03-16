@@ -13,17 +13,25 @@
 
 <title>In the News</title>
 
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.25/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/paper.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/anchor-sections-1.0/anchor-sections.css" rel="stylesheet" />
-<script src="site_libs/anchor-sections-1.0/anchor-sections.js"></script>
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -35,11 +43,6 @@
     </style>
 
 <style type="text/css">code{white-space: pre;}</style>
-<style type="text/css">
-  pre:not([class]) {
-    background-color: white;
-  }
-</style>
 <script type="text/javascript">
 if (window.hljs) {
   hljs.configure({languages: []});
@@ -52,32 +55,8 @@ if (window.hljs) {
 
 
 
-<style type="text/css">
-h1 {
-  font-size: 34px;
-}
-h1.title {
-  font-size: 38px;
-}
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 24px;
-}
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
-}
-</style>
+
+
 
 <link rel="stylesheet" href="styles.css" type="text/css" />
 
@@ -88,10 +67,6 @@ h6 {
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
-}
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
 }
 img {
   max-width:100%;
@@ -108,40 +83,16 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
 </style>
 
 
 <style type="text/css">
-/* padding for bootstrap navbar */
-body {
-  padding-top: 64px;
-  padding-bottom: 40px;
-}
-/* offset scroll position for anchor links (for fixed navbar)  */
-.section h1 {
-  padding-top: 69px;
-  margin-top: -69px;
-}
-.section h2 {
-  padding-top: 69px;
-  margin-top: -69px;
-}
-.section h3 {
-  padding-top: 69px;
-  margin-top: -69px;
-}
-.section h4 {
-  padding-top: 69px;
-  margin-top: -69px;
-}
-.section h5 {
-  padding-top: 69px;
-  margin-top: -69px;
-}
-.section h6 {
-  padding-top: 69px;
-  margin-top: -69px;
-}
 .dropdown-submenu {
   position: relative;
 }
@@ -169,7 +120,7 @@ body {
   margin-right: -10px;
 }
 .dropdown-submenu:hover>a:after {
-  border-left-color: #ffffff;
+  border-left-color: #adb5bd;
 }
 .dropdown-submenu.pull-left {
   float: none;
@@ -181,7 +132,7 @@ body {
 }
 </style>
 
-<script>
+<script type="text/javascript">
 // manage active state of menu based on current page
 $(document).ready(function () {
   // active menu anchor
@@ -191,11 +142,28 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.parent().addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
 });
 </script>
 
@@ -207,13 +175,12 @@ $(document).ready(function () {
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
-  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -221,16 +188,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -274,7 +234,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -312,7 +272,7 @@ $(document).ready(function () {
   </div><!--/.container -->
 </div><!--/.navbar -->
 
-<div class="fluid-row" id="header">
+<div id="header">
 
 
 
@@ -321,21 +281,79 @@ $(document).ready(function () {
 </div>
 
 
-<p><a href="https://hub.jhu.edu/magazine/2021/fall/data-driven-covid-19-care/"><em>Data-driven COVID-19 care: Johns Hopkins Magazine Feature</em></a></p>
-<p><a href="https://hub.jhu.edu/2021/06/15/data-driven-covid-19-care/"><em>Data-driven COVID-19 care: A new algorithm created by Johns Hopkins scientists predicts which COVID-19 patients will become gravely ill</em></a></p>
-<p><a href="https://www.hopkinsmedicine.org/news/newsroom/news-releases/covid-19-story-tip-dynamic-tool-accurately-predicts-risk-of-covid-19-progressing-to-severe-disease-or-death"><em>Covid-19 Story Tip: Dynamic Tool Accurately Predicts Risk of COVID-19 Progressing to Severe Disease or Death</em></a></p>
-<p><a href="https://www.hopkinsmedicine.org/som/kudos/young-investigators-day-2021/bios.html#wongvibulsin"><em>Feature in Celebrating Young Investigators: Johns Hopkins 2021 Award Winners</em></a></p>
-<p><a href="https://hopkinsyidp.org/people/shannon-wongvibulsin/"><em>Young Investigators: Johns Hopkins 2021 Award Winner Profile</em></a></p>
-<p><a href="https://www.jhunewsletter.com/article/2020/11/quest2learn-team-hopes-to-improve-virtual-lab-classes"><em>Quest2Learn team hopes to improve virtual lab classes</em></a></p>
-<p><a href="https://malonecenter.jhu.edu/malone-center-students-named-ats-student-scholars/"><em>Malone Center Students Named as ATS Student Scholars</em></a></p>
-<p><a href="http://lifestylemedicineeducation.org/johns-hopkins-university-school-of-medicine-teaching-kitchen/"><em>Lifestyle Medicine Education Collaborative feature article on the Johns Hopkins University School of Medicine Teaching Kitchen</em></a></p>
-<p><a href="https://technical.ly/baltimore/2016/04/20/3-health-focused-startups-jhus-social-innovation-lab/"><em>Feature in Technically Baltimore: 3 health-focused startups in JHU’s Social Innovation Lab</em></a></p>
-<p><a href="https://hub.jhu.edu/2015/10/30/social-innovation-lab-2015-2016-cohort/"><em>B’more Healthy Teaching Kitchen featured in the Social Innovation Lab’s announcement: JHU early-stage incubator to support 10 business, technology ventures</em></a></p>
-<p><a href="https://mbasic.facebook.com/story.php?story_fbid=1539715386270686&amp;substory_index=0&amp;id=1408883999353826&amp;refid=17&amp;_ft_=top_level_post_id.1539715322937359%3Atl_objid.1539715322937359%3Athrowback_story_fbid.1539715386270686%3Apage_id.1408883999353826%3Apage_insights.%7B%221408883999353826%22%3A%7B%22role%22%3A1%2C%22page_id%22%3A1408883999353826%2C%22post_context%22%3A%7B%22story_fbid%22%3A1539715386270686%2C%22publish_time%22%3A1418770643%2C%22story_name%22%3A%22EntPhotoNodeBasedEdgeStory%22%2C%22object_fbtype%22%3A22%7D%2C%22actor_id%22%3A1408883999353826%2C%22psn%22%3A%22EntPhotoNodeBasedEdgeStory%22%2C%22sl%22%3A4%2C%22targets%22%3A%5B%7B%22page_id%22%3A1408883999353826%2C%22actor_id%22%3A1408883999353826%2C%22role%22%3A1%2C%22post_id%22%3A1539715386270686%2C%22share_id%22%3A0%7D%5D%7D%2C%2235281659193%22%3A%7B%22page_id%22%3A35281659193%2C%22role%22%3A16%2C%22actor_id%22%3A1408883999353826%2C%22psn%22%3A%22EntPhotoNodeBasedEdgeStory%22%2C%22sl%22%3A4%7D%7D%3Athid.1408883999353826%3A306061129499414%3A69%3A1388563200%3A1420099199%3A-4081180898271185253&amp;__tn__=%2As-R"><em>Feature in the Medical Student Press</em></a></p>
-<p><a href="https://mdphd.johnshopkins.edu/class2014-2/"><em>2014 Johns Hopkins Medical Scientist Program Entering Class</em></a></p>
-<p><a href="https://samueli.ucla.edu/2014-commencement-awards/"><em>UCLA 2014 Commencement Awards: Outstanding Bachelor of Science</em></a></p>
-<p><a href="https://samueli.ucla.edu/bioengineering-junior-named-2013-barry-goldwater-scholar/"><em>Bioengineering Junior Named 2013 Barry Goldwater Scholar</em></a></p>
-<p><a href="https://dailybruin.com/2013/05/14/student-receives-barry-goldwater-scholarship-for-research-dedication"><em>Daily Bruin: Student receives Barry Goldwater Scholarship for research, dedication</em></a></p>
+<p><a
+href="https://www.aadmeetingnews.org/2024-aad-innovation-academy/article/22915837/eye-on-the-future"><em>Eye
+on the future: Artificial intelligence, new cancer treatments converge
+on dermatology.</em></a></p>
+<p><a
+href="https://www.aadmeetingnews.org/2024-aad-innovation-academy/article/22915680/dont-miss-this-afternoons-future-of-dermatology-session"><em>Don’t
+miss this afternoon’s Future of Dermatology session!</em></a></p>
+<p><a
+href="https://www.aadmeetingnews.org/2024-aad-innovation-academy/article/22913419/moving-forward-with-vigor"><em>Moving
+forward with vigor: Future of Dermatology Symposium brings new ideas to
+the forefront</em></a></p>
+<p><a
+href="https://connect.uclahealth.org/dom/2024/05/20/year-3-may-20-its-feeling-like-award-season/"><em>It’s
+Feeling Like Award Season</em></a></p>
+<p><a
+href="https://www.aadmeetingnews.org/2025-aad-annual-meeting/article/22931591/up-for-debate"><em>Up
+for debate: Popular symposium addresses hot-button topics and urgers
+members to get involved and work together.</em></a></p>
+<p><a
+href="https://www.aadmeetingnews.org/2024-aad-annual-meeting/article/22886620/making-the-case"><em>Making
+the case: Two Annual Meeting sessions engage in critical
+debate.</em></a></p>
+<p><a
+href="https://hub.jhu.edu/magazine/2021/fall/data-driven-covid-19-care/"><em>Data-driven
+COVID-19 care: Johns Hopkins Magazine Feature</em></a></p>
+<p><a
+href="https://hub.jhu.edu/2021/06/15/data-driven-covid-19-care/"><em>Data-driven
+COVID-19 care: A new algorithm created by Johns Hopkins scientists
+predicts which COVID-19 patients will become gravely ill</em></a></p>
+<p><a
+href="https://www.hopkinsmedicine.org/news/newsroom/news-releases/covid-19-story-tip-dynamic-tool-accurately-predicts-risk-of-covid-19-progressing-to-severe-disease-or-death"><em>Covid-19
+Story Tip: Dynamic Tool Accurately Predicts Risk of COVID-19 Progressing
+to Severe Disease or Death</em></a></p>
+<p><a
+href="https://www.hopkinsmedicine.org/som/kudos/young-investigators-day-2021/bios.html#wongvibulsin"><em>Feature
+in Celebrating Young Investigators: Johns Hopkins 2021 Award
+Winners</em></a></p>
+<p><a
+href="https://hopkinsyidp.org/people/shannon-wongvibulsin/"><em>Young
+Investigators: Johns Hopkins 2021 Award Winner Profile</em></a></p>
+<p><a
+href="https://www.jhunewsletter.com/article/2020/11/quest2learn-team-hopes-to-improve-virtual-lab-classes"><em>Quest2Learn
+team hopes to improve virtual lab classes</em></a></p>
+<p><a
+href="https://malonecenter.jhu.edu/malone-center-students-named-ats-student-scholars/"><em>Malone
+Center Students Named as ATS Student Scholars</em></a></p>
+<p><a
+href="http://lifestylemedicineeducation.org/johns-hopkins-university-school-of-medicine-teaching-kitchen/"><em>Lifestyle
+Medicine Education Collaborative feature article on the Johns Hopkins
+University School of Medicine Teaching Kitchen</em></a></p>
+<p><a
+href="https://technical.ly/baltimore/2016/04/20/3-health-focused-startups-jhus-social-innovation-lab/"><em>Feature
+in Technically Baltimore: 3 health-focused startups in JHU’s Social
+Innovation Lab</em></a></p>
+<p><a
+href="https://hub.jhu.edu/2015/10/30/social-innovation-lab-2015-2016-cohort/"><em>B’more
+Healthy Teaching Kitchen featured in the Social Innovation Lab’s
+announcement: JHU early-stage incubator to support 10 business,
+technology ventures</em></a></p>
+<p><a
+href="https://mbasic.facebook.com/story.php?story_fbid=1539715386270686&amp;substory_index=0&amp;id=1408883999353826&amp;refid=17&amp;_ft_=top_level_post_id.1539715322937359%3Atl_objid.1539715322937359%3Athrowback_story_fbid.1539715386270686%3Apage_id.1408883999353826%3Apage_insights.%7B%221408883999353826%22%3A%7B%22role%22%3A1%2C%22page_id%22%3A1408883999353826%2C%22post_context%22%3A%7B%22story_fbid%22%3A1539715386270686%2C%22publish_time%22%3A1418770643%2C%22story_name%22%3A%22EntPhotoNodeBasedEdgeStory%22%2C%22object_fbtype%22%3A22%7D%2C%22actor_id%22%3A1408883999353826%2C%22psn%22%3A%22EntPhotoNodeBasedEdgeStory%22%2C%22sl%22%3A4%2C%22targets%22%3A%5B%7B%22page_id%22%3A1408883999353826%2C%22actor_id%22%3A1408883999353826%2C%22role%22%3A1%2C%22post_id%22%3A1539715386270686%2C%22share_id%22%3A0%7D%5D%7D%2C%2235281659193%22%3A%7B%22page_id%22%3A35281659193%2C%22role%22%3A16%2C%22actor_id%22%3A1408883999353826%2C%22psn%22%3A%22EntPhotoNodeBasedEdgeStory%22%2C%22sl%22%3A4%7D%7D%3Athid.1408883999353826%3A306061129499414%3A69%3A1388563200%3A1420099199%3A-4081180898271185253&amp;__tn__=%2As-R"><em>Feature
+in the Medical Student Press</em></a></p>
+<p><a href="https://mdphd.johnshopkins.edu/class2014-2/"><em>2014 Johns
+Hopkins Medical Scientist Program Entering Class</em></a></p>
+<p><a href="https://samueli.ucla.edu/2014-commencement-awards/"><em>UCLA
+2014 Commencement Awards: Outstanding Bachelor of Science</em></a></p>
+<p><a
+href="https://samueli.ucla.edu/bioengineering-junior-named-2013-barry-goldwater-scholar/"><em>Bioengineering
+Junior Named 2013 Barry Goldwater Scholar</em></a></p>
+<p><a
+href="https://dailybruin.com/2013/05/14/student-receives-barry-goldwater-scholarship-for-research-dedication"><em>Daily
+Bruin: Student receives Barry Goldwater Scholarship for research,
+dedication</em></a></p>
 
 
 
@@ -364,7 +382,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
+    $(this).parent().toggleClass('nav-tabs-open');
   });
 });
 </script>

@@ -13,7 +13,7 @@
 
 <title>Research</title>
 
-<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.25/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/paper.min.css" rel="stylesheet" />
@@ -142,11 +142,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -175,8 +179,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -184,16 +188,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -305,29 +302,68 @@ $(document).ready(function () {
 </div>
 <div id="selected-prior-presentations" class="section level2">
 <h2>Selected Prior Presentations</h2>
+<p><strong><a href="https://am2025.aad.org/speakers/25731"><em>The
+American Academy of Dermatology (AAD) Annual Meeting:</em></a></strong>
+March 2025</p>
 <ul>
-<li><strong>March 2024: <a
-href="https://www.aad.org/member/meetings-education/am24"><em>The
-American Academy of Dermatology (AAD) Annual Meeting</em></a>:</strong>
-<strong>Wongvibulsin S.</strong> <em>The 2024 Debates: Controversies in
-Dermatology - Artificial Intelligence (AI) in Dermatology</em></li>
-<li><strong>May 2023: <a href="https://isid2023.org/"><em>International
-Symposium on Artificial Intelligence in Dermatology at the International
-Societies For Investigative Dermatology Meeting
-(ISID)</em></a>:</strong> <strong>Wongvibulsin S.</strong> <em>Enabling
-Precision Dermatology with Artificial Intelligence.</em></li>
-<li><strong>April 2021: <a
-href="http://interurbanclinicalclub.org/"><em>Interurban Clinical
-Club</em></a>:</strong> <strong>Wongvibulsin S.</strong> <em>Leveraging
-Big Data and Machine Learning for Clinical Risk Prediction.</em></li>
-<li><strong>May 2021: <a
-href="https://www.sidannualmeeting.org/"><em>Society of Investigative
-Dermatology (SID) Virtual Meeting</em></a>:</strong>
-<strong>Wongvibulsin S.</strong>, Okoye G., Garza L.
-<em>Population-Level Study of Hidradenitis Suppurativa (HS) in the
-United States (US) Reveals Association with Obesity and Socioeconomic
-Status.</em></li>
+<li><p><em>The 2025 Debates: Controversies in Dermatology - The
+Cautionary Side of Artificial Intelligence in Dermatology</em></p></li>
+<li><p><em>The Future is Now: A Bootcamp in Artificial Intelligence -
+What AI Can Do for Us Now</em></p></li>
 </ul>
+<p><strong><a
+href="https://mailchi.mp/nidiskin/1st-annual-world-congress-of-digital-health-in-dermatology-registration-open?e=ea1cca5158"><em>World
+Congress of Digital Health in Dermatology:</em></a></strong> March
+2025</p>
+<ul>
+<li><em>Ethical Considerations and Data Security in Digital Health -
+Recommendations for Dermatologist Using Generative AI</em></li>
+</ul>
+<p><strong><a
+href="https://advancing-derm.org/platform/conferences/dermatology-innovation-forum-2025/"><em>Dermatology
+Innovation Forum:</em></a></strong> March 2025</p>
+<ul>
+<li><em>The Future is Conversational: Clinical Use of Large Language
+Models</em></li>
+</ul>
+<p><strong><a
+href="https://www.imcas.com/en/academy/webinar/skin-and-digital-summit-7-december-2024"><em>Skin
+&amp; Digital Summit:</em></a></strong> December 2024</p>
+<ul>
+<li><em>Invisible Patients: the Data Crisis Undermining AI in
+Dermatology</em></li>
+</ul>
+<p><strong><a href="https://ia2024.aad.org/speakers/25062"><em>AAD
+Innovation Academy:</em></a></strong> August 2024</p>
+<ul>
+<li><p><em>The Future of Dermatology: Artificial Intelligence (AI) in
+Dermatology</em></p></li>
+<li><p><em>AI in Action: Augmenting Dermatologists and Assisting
+Patients</em></p></li>
+<li><p><em>Dilemmas and Debates in Derm: The Use of Big Data in
+Dermatology: Prospects and Privacy Concerns</em></p></li>
+</ul>
+<p><strong><a href="https://am2024.aad.org/speakers/24862"><em>The AAD
+Annual Meeting:</em></a></strong> March 2024</p>
+<ul>
+<li><em>The 2024 Debates: Controversies in Dermatology - Artificial
+Intelligence (AI) in Dermatology</em></li>
+</ul>
+<p><strong><a href="https://isid2023.org/"><em>International Symposium
+on Artificial Intelligence in Dermatology at the International Societies
+For Investigative Dermatology Meeting (ISID):</em></a></strong> May
+2023</p>
+<ul>
+<li><em>Enabling Precision Dermatology with Artificial
+Intelligence.</em></li>
+</ul>
+<p><strong><a href="http://interurbanclinicalclub.org/"><em>Interurban
+Clinical Club:</em></a></strong> April 2021</p>
+<ul>
+<li><em>Leveraging Big Data and Machine Learning for Clinical Risk
+Prediction.</em></li>
+</ul>
+<!--* __May 2021: [*Society of Investigative Dermatology (SID) Virtual Meeting*](https://www.sidannualmeeting.org/):__ __Wongvibulsin S.__, Okoye G., Garza L. *Population-Level Study of Hidradenitis Suppurativa (HS) in the United States (US) Reveals Association with Obesity and Socioeconomic Status.* !-->
 <!--## Manuscripts in Submission
 * Ostovaneh M., Dodge A., Wu C., Tracy R., Liu K., Zeger S., McClelland R., __Wongvibulsin S.__, Shea S., Bluemke D, Lima J., Ambale-Venkatesh B. *Machine Learning to Predict Short-versus Long-term Cardiovascular Outcomes: Multi-Ethnic Study of Atherosclerosis.* !-->
 </div>
@@ -337,6 +373,19 @@ Status.</em></li>
 <div id="publications" class="section level2">
 <h2>Publications</h2>
 <ul>
+<li><p>Dovigi E.__Wongvibulsin S.__, Lee I., Novoa R., Cai Z., Rotemberg
+V., Daneshjou R. Augmented Intelligence and Dermatology - Part II: Bias,
+Benchmarks, Guidelines, Ethics, Regulation, and Future Directions. JAAD.
+2025 (accepted) *Co-first authors</p></li>
+<li><p><strong>Wongvibulsin S.</strong>, Lee I. <a
+href="https://jamanetwork.com/journals/jamadermatology/fullarticle/2829083"><em>Artificial
+Intelligence and Dermatology.</em></a> JAMA Derm. 2025.</p></li>
+<li><p>Johri S., Jeong J., Tran B.A., Schlessinger D.I.,
+<strong>Wongvibulsin S.</strong>, Barnes L.A., Zhou H.Y., Cai Z.R., Van
+Allen E.M., Kim D., Daneshjou R. <a
+href="https://www.nature.com/articles/s41591-024-03328-5"><em>An
+evaluation framework for clinical use of large language models in
+patient interaction tasks.</em></a> Nature Medicine. 2025</p></li>
 <li><p><strong>Wongvibulsin S.</strong>, Yan M., Pahalyants V., Murphy
 W., Daneshjou R., Rotemberg V. <a
 href="https://jamanetwork.com/journals/jamadermatology/fullarticle/2815800"><em>Current

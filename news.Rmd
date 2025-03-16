@@ -3,6 +3,18 @@ title: "In the News"
 output: html_document
 ---
 
+[*Eye on the future: Artificial intelligence, new cancer treatments converge on dermatology.*](https://www.aadmeetingnews.org/2024-aad-innovation-academy/article/22915837/eye-on-the-future)
+
+[*Don’t miss this afternoon’s Future of Dermatology session!*](https://www.aadmeetingnews.org/2024-aad-innovation-academy/article/22915680/dont-miss-this-afternoons-future-of-dermatology-session)
+
+[*Moving forward with vigor: Future of Dermatology Symposium brings new ideas to the forefront*](https://www.aadmeetingnews.org/2024-aad-innovation-academy/article/22913419/moving-forward-with-vigor)
+
+[*It’s Feeling Like Award Season*](https://connect.uclahealth.org/dom/2024/05/20/year-3-may-20-its-feeling-like-award-season/)
+
+[*Up for debate: Popular symposium addresses hot-button topics and urgers members to get involved and work together.*](https://www.aadmeetingnews.org/2025-aad-annual-meeting/article/22931591/up-for-debate)
+
+[*Making the case: Two Annual Meeting sessions engage in critical debate.*](https://www.aadmeetingnews.org/2024-aad-annual-meeting/article/22886620/making-the-case)
+
 [*Data-driven COVID-19 care: Johns Hopkins Magazine Feature*](https://hub.jhu.edu/magazine/2021/fall/data-driven-covid-19-care/)
 
 [*Data-driven COVID-19 care: A new algorithm created by Johns Hopkins scientists predicts which COVID-19 patients will become gravely ill*](https://hub.jhu.edu/2021/06/15/data-driven-covid-19-care/)

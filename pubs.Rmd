@@ -18,16 +18,59 @@ title: "Research"
 <!--## Upcoming Presentation !-->
 
 ## Selected Prior Presentations
-* __March 2024: [*The American Academy of Dermatology (AAD) Annual Meeting*](https://www.aad.org/member/meetings-education/am24):__ __Wongvibulsin S.__ *The 2024 Debates: Controversies in Dermatology - Artificial Intelligence (AI) in Dermatology*
-* __May 2023: [*International Symposium on Artificial Intelligence in Dermatology at the International Societies For Investigative Dermatology Meeting (ISID)*](https://isid2023.org/):__ __Wongvibulsin S.__  *Enabling Precision Dermatology with Artificial Intelligence.* 
-* __April 2021: [*Interurban Clinical Club*](http://interurbanclinicalclub.org/):__ __Wongvibulsin S.__  *Leveraging Big Data and Machine Learning for Clinical Risk Prediction.* 
-* __May 2021: [*Society of Investigative Dermatology (SID) Virtual Meeting*](https://www.sidannualmeeting.org/):__ __Wongvibulsin S.__, Okoye G., Garza L. *Population-Level Study of Hidradenitis Suppurativa (HS) in the United States (US) Reveals Association with Obesity and Socioeconomic Status.* 
+
+__[*The American Academy of Dermatology (AAD) Annual Meeting:*](https://am2025.aad.org/speakers/25731)__ March 2025
+
+* *The 2025 Debates: Controversies in Dermatology - The Cautionary Side of Artificial Intelligence in Dermatology*
+
+* *The Future is Now: A Bootcamp in Artificial Intelligence - What AI Can Do for Us Now*
+
+__[*World Congress of Digital Health in Dermatology:*](https://mailchi.mp/nidiskin/1st-annual-world-congress-of-digital-health-in-dermatology-registration-open?e=ea1cca5158)__ March 2025
+
+* *Ethical Considerations and Data Security in Digital Health - Recommendations for Dermatologist Using Generative AI*
+
+__[*Dermatology Innovation Forum:*](https://advancing-derm.org/platform/conferences/dermatology-innovation-forum-2025/)__ March 2025
+
+* *The Future is Conversational: Clinical Use of Large Language Models*
+
+__[*Skin & Digital Summit:*](https://www.imcas.com/en/academy/webinar/skin-and-digital-summit-7-december-2024)__ December 2024
+
+* *Invisible Patients: the Data Crisis Undermining AI in Dermatology*
+
+__[*AAD Innovation Academy:*](https://ia2024.aad.org/speakers/25062)__ August 2024
+
+* *The Future of Dermatology: Artificial Intelligence (AI) in Dermatology*
+
+* *AI in Action: Augmenting Dermatologists and Assisting Patients*
+
+* *Dilemmas and Debates in Derm: The Use of Big Data in Dermatology: Prospects and Privacy Concerns*
+
+__[*The AAD Annual Meeting:*](https://am2024.aad.org/speakers/24862)__ March 2024
+
+* *The 2024 Debates: Controversies in Dermatology - Artificial Intelligence (AI) in Dermatology*
+
+__[*International Symposium on Artificial Intelligence in Dermatology at the International Societies For Investigative Dermatology Meeting (ISID):*](https://isid2023.org/)__ May 2023
+
+* *Enabling Precision Dermatology with Artificial Intelligence.* 
+
+__[*Interurban Clinical Club:*](http://interurbanclinicalclub.org/)__ April 2021
+
+* *Leveraging Big Data and Machine Learning for Clinical Risk Prediction.* 
+
+
+<!--* __May 2021: [*Society of Investigative Dermatology (SID) Virtual Meeting*](https://www.sidannualmeeting.org/):__ __Wongvibulsin S.__, Okoye G., Garza L. *Population-Level Study of Hidradenitis Suppurativa (HS) in the United States (US) Reveals Association with Obesity and Socioeconomic Status.* !-->
 
 <!--## Manuscripts in Submission
 * Ostovaneh M., Dodge A., Wu C., Tracy R., Liu K., Zeger S., McClelland R., __Wongvibulsin S.__, Shea S., Bluemke D, Lima J., Ambale-Venkatesh B. *Machine Learning to Predict Short-versus Long-term Cardiovascular Outcomes: Multi-Ethnic Study of Atherosclerosis.* !-->
 
 ##
 ## Publications
+
+* Dovigi E.__Wongvibulsin S.__, Lee I., Novoa R., Cai Z., Rotemberg V., Daneshjou R. Augmented Intelligence and Dermatology - Part II: Bias, Benchmarks, Guidelines, Ethics, Regulation, and Future Directions. JAAD. 2025 (accepted) *Co-first authors
+
+* __Wongvibulsin S.__, Lee I. [*Artificial Intelligence and Dermatology.*](https://jamanetwork.com/journals/jamadermatology/fullarticle/2829083) JAMA Derm. 2025.
+
+* Johri S., Jeong J., Tran B.A., Schlessinger D.I., __Wongvibulsin S.__, Barnes L.A., Zhou H.Y., Cai Z.R., Van Allen E.M., Kim D., Daneshjou R. [*An evaluation framework for clinical use of large language models in patient interaction tasks.*](https://www.nature.com/articles/s41591-024-03328-5) Nature Medicine. 2025
 
 * __Wongvibulsin S.__, Yan M., Pahalyants V., Murphy W., Daneshjou R., Rotemberg V. [*Current State of Dermatology Mobile Applications With Artificial Intelligence Features.*](https://jamanetwork.com/journals/jamadermatology/fullarticle/2815800) JAMA Derm. 2024.
 
