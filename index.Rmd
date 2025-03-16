@@ -1,5 +1,6 @@
 ---
 title: "About Me"
+subtitle: "Shannon Wongvibulsin, MD, PhD"
 output: html_document
 ---
 
