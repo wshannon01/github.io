@@ -1,7 +1,7 @@
 name: "Shannon Wongvibulsin"
 output_dir: "."
 navbar:
-  title: "Shannon Wongvibulsin"
+  title: "Shannon Wongvibulsin, MD, PhD"
   left:
     - text: "Home"
       href: index.html
