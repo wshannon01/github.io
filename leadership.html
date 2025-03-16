@@ -13,17 +13,25 @@
 
 <title>Teaching</title>
 
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.25/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/paper.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/anchor-sections-1.0/anchor-sections.css" rel="stylesheet" />
-<script src="site_libs/anchor-sections-1.0/anchor-sections.js"></script>
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -35,11 +43,6 @@
     </style>
 
 <style type="text/css">code{white-space: pre;}</style>
-<style type="text/css">
-  pre:not([class]) {
-    background-color: white;
-  }
-</style>
 <script type="text/javascript">
 if (window.hljs) {
   hljs.configure({languages: []});
@@ -52,32 +55,8 @@ if (window.hljs) {
 
 
 
-<style type="text/css">
-h1 {
-  font-size: 34px;
-}
-h1.title {
-  font-size: 38px;
-}
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 24px;
-}
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
-}
-</style>
+
+
 
 <link rel="stylesheet" href="styles.css" type="text/css" />
 
@@ -88,10 +67,6 @@ h6 {
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
-}
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
 }
 img {
   max-width:100%;
@@ -108,40 +83,16 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
 </style>
 
 
 <style type="text/css">
-/* padding for bootstrap navbar */
-body {
-  padding-top: 64px;
-  padding-bottom: 40px;
-}
-/* offset scroll position for anchor links (for fixed navbar)  */
-.section h1 {
-  padding-top: 69px;
-  margin-top: -69px;
-}
-.section h2 {
-  padding-top: 69px;
-  margin-top: -69px;
-}
-.section h3 {
-  padding-top: 69px;
-  margin-top: -69px;
-}
-.section h4 {
-  padding-top: 69px;
-  margin-top: -69px;
-}
-.section h5 {
-  padding-top: 69px;
-  margin-top: -69px;
-}
-.section h6 {
-  padding-top: 69px;
-  margin-top: -69px;
-}
 .dropdown-submenu {
   position: relative;
 }
@@ -169,7 +120,7 @@ body {
   margin-right: -10px;
 }
 .dropdown-submenu:hover>a:after {
-  border-left-color: #ffffff;
+  border-left-color: #adb5bd;
 }
 .dropdown-submenu.pull-left {
   float: none;
@@ -181,7 +132,7 @@ body {
 }
 </style>
 
-<script>
+<script type="text/javascript">
 // manage active state of menu based on current page
 $(document).ready(function () {
   // active menu anchor
@@ -191,11 +142,28 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.parent().addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
 });
 </script>
 
@@ -207,13 +175,12 @@ $(document).ready(function () {
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
-  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -221,16 +188,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -274,12 +234,12 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html">Shannon Wongvibulsin</a>
+      <a class="navbar-brand" href="index.html">Shannon Wongvibulsin, MD, PhD</a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
@@ -312,7 +272,7 @@ $(document).ready(function () {
   </div><!--/.container -->
 </div><!--/.navbar -->
 
-<div class="fluid-row" id="header">
+<div id="header">
 
 
 
@@ -322,9 +282,11 @@ $(document).ready(function () {
 
 
 <blockquote>
-<p><strong>UCLA Henry Samueli School of Engineering and Applied Science:</strong></p>
+<p><strong>UCLA Henry Samueli School of Engineering and Applied
+Science:</strong></p>
 </blockquote>
-<p>Guest Lecturer for Bioengineering Department’s Seminar Series: November 16th, 2020</p>
+<p>Guest Lecturer for Bioengineering Department’s Seminar Series:
+November 16th, 2020</p>
 <ul>
 <li>Machine Learning for Clinical Risk Prediction</li>
 </ul>
@@ -333,10 +295,27 @@ $(document).ready(function () {
 </blockquote>
 <p>Instructor: September - November 2018</p>
 <ul>
-<li>During my PhD training, I had the privilege of participating in the Hopkins Engineering Applications &amp; Research Tutorials (HEART) program, through which advanced graduate students and postdoctoral fellows design courses to provide undergraduates with the opportunity to learn about cutting-edge engineering research and its societal impact. Specifically, I designed and instructed <strong>HEART Foundations of Statistical Machine Learning</strong> which introduced both the theoretical foundations of modern statistical machine learning models and the implementation of these algorithms in the R programming language; additional details are provided in the <em>Nature Machine Intelligence</em> publications below in which I shared my reflections and perspective on increasing diversity and inclusion in the machine intelligence community:
+<li>During my PhD training, I had the privilege of participating in the
+Hopkins Engineering Applications &amp; Research Tutorials (HEART)
+program, through which advanced graduate students and postdoctoral
+fellows design courses to provide undergraduates with the opportunity to
+learn about cutting-edge engineering research and its societal impact.
+Specifically, I designed and instructed <strong>HEART Foundations of
+Statistical Machine Learning</strong> which introduced both the
+theoretical foundations of modern statistical machine learning models
+and the implementation of these algorithms in the R programming
+language; additional details are provided in the <em>Nature Machine
+Intelligence</em> publications below in which I shared my reflections
+and perspective on increasing diversity and inclusion in the machine
+intelligence community:
 <ul>
-<li><a href="https://www.nature.com/articles/s42256-019-0021-8"><em>Fostering Diversity and Inclusion in the Machine Intelligence Community.</em></a></li>
-<li><a href="https://www.nature.com/articles/s42256-019-0141-1"><em>Artificial intelligence (AI) reflections in 2019.</em></a></li>
+<li><a
+href="https://www.nature.com/articles/s42256-019-0021-8"><em>Fostering
+Diversity and Inclusion in the Machine Intelligence
+Community.</em></a></li>
+<li><a
+href="https://www.nature.com/articles/s42256-019-0141-1"><em>Artificial
+intelligence (AI) reflections in 2019.</em></a></li>
 </ul></li>
 </ul>
 <blockquote>
@@ -351,13 +330,17 @@ $(document).ready(function () {
 <li>Random Forest Algorithm and Practical Applications in R</li>
 </ul>
 <blockquote>
-<p><strong>UCLA Henry Samueli School of Engineering and Applied Science:</strong></p>
+<p><strong>UCLA Henry Samueli School of Engineering and Applied
+Science:</strong></p>
 </blockquote>
 <p>Tutor: January 2013 - March 2014</p>
 <ul>
-<li><p>BE 120: Biomedical Transducers: January 2014 – March 2014</p></li>
-<li><p>BE 110: Biotransport and Bioreaction Processes: March 2013 – June 2013</p></li>
-<li><p>BE 100: Bioengineering Fundamentals: January 2013 – March 2013</p></li>
+<li><p>BE 120: Biomedical Transducers: January 2014 – March
+2014</p></li>
+<li><p>BE 110: Biotransport and Bioreaction Processes: March 2013 – June
+2013</p></li>
+<li><p>BE 100: Bioengineering Fundamentals: January 2013 – March
+2013</p></li>
 </ul>
 
 
@@ -387,7 +370,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
+    $(this).parent().toggleClass('nav-tabs-open');
   });
 });
 </script>
